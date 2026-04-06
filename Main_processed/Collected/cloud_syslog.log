@@ -1,0 +1,1132 @@
+2026-04-05T11:07:34.927969+00:00 ip-172-31-75-209 systemd-fsck[140]: cloudimg-rootfs: clean, 82828/917504 files, 534273/1834747 blocks
+2026-04-05T11:07:34.928374+00:00 ip-172-31-75-209 systemd-modules-load[137]: Inserted module 'msr'
+2026-04-05T11:07:34.928388+00:00 ip-172-31-75-209 systemd[1]: Mounted dev-hugepages.mount - Huge Pages File System.
+2026-04-05T11:07:34.928403+00:00 ip-172-31-75-209 systemd[1]: Mounted dev-mqueue.mount - POSIX Message Queue File System.
+2026-04-05T11:07:34.928419+00:00 ip-172-31-75-209 systemd[1]: Mounted sys-kernel-debug.mount - Kernel Debug File System.
+2026-04-05T11:07:34.928423+00:00 ip-172-31-75-209 systemd[1]: Mounted sys-kernel-tracing.mount - Kernel Trace File System.
+2026-04-05T11:07:34.928428+00:00 ip-172-31-75-209 systemd[1]: Finished kmod-static-nodes.service - Create List of Static Device Nodes.
+2026-04-05T11:07:34.928434+00:00 ip-172-31-75-209 systemd[1]: Finished lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling.
+2026-04-05T11:07:34.928442+00:00 ip-172-31-75-209 systemd[1]: modprobe@configfs.service: Deactivated successfully.
+2026-04-05T11:07:34.928447+00:00 ip-172-31-75-209 systemd[1]: Finished modprobe@configfs.service - Load Kernel Module configfs.
+2026-04-05T11:07:34.928451+00:00 ip-172-31-75-209 systemd[1]: modprobe@dm_mod.service: Deactivated successfully.
+2026-04-05T11:07:34.928456+00:00 ip-172-31-75-209 systemd[1]: Finished modprobe@dm_mod.service - Load Kernel Module dm_mod.
+2026-04-05T11:07:34.928460+00:00 ip-172-31-75-209 systemd[1]: modprobe@drm.service: Deactivated successfully.
+2026-04-05T11:07:34.928465+00:00 ip-172-31-75-209 systemd[1]: Finished modprobe@drm.service - Load Kernel Module drm.
+2026-04-05T11:07:34.928315+00:00 ip-172-31-75-209 kernel: Linux version 6.17.0-1007-aws (buildd@lcy02-amd64-017) (x86_64-linux-gnu-gcc-13 (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0, GNU ld (GNU Binutils for Ubuntu) 2.42) #7~24.04.1-Ubuntu SMP Thu Jan 22 21:04:49 UTC 2026 (Ubuntu 6.17.0-1007.7~24.04.1-aws 6.17.9)
+2026-04-05T11:07:34.928473+00:00 ip-172-31-75-209 systemd[1]: modprobe@efi_pstore.service: Deactivated successfully.
+2026-04-05T11:07:34.928658+00:00 ip-172-31-75-209 systemd[1]: Finished modprobe@efi_pstore.service - Load Kernel Module efi_pstore.
+2026-04-05T11:07:34.928665+00:00 ip-172-31-75-209 systemd[1]: modprobe@fuse.service: Deactivated successfully.
+2026-04-05T11:07:34.928669+00:00 ip-172-31-75-209 systemd[1]: Finished modprobe@fuse.service - Load Kernel Module fuse.
+2026-04-05T11:07:34.928674+00:00 ip-172-31-75-209 systemd[1]: modprobe@loop.service: Deactivated successfully.
+2026-04-05T11:07:34.928678+00:00 ip-172-31-75-209 systemd[1]: Finished modprobe@loop.service - Load Kernel Module loop.
+2026-04-05T11:07:34.928686+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-fsck-root.service - File System Check on Root Device.
+2026-04-05T11:07:34.928691+00:00 ip-172-31-75-209 systemd-modules-load[137]: Inserted module 'dm_multipath'
+2026-04-05T11:07:34.928696+00:00 ip-172-31-75-209 systemd[1]: Finished keyboard-setup.service - Set the console keyboard layout.
+2026-04-05T11:07:34.928700+00:00 ip-172-31-75-209 systemd-modules-load[137]: Inserted module 'nf_conntrack'
+2026-04-05T11:07:34.928707+00:00 ip-172-31-75-209 systemd[1]: Mounting sys-fs-fuse-connections.mount - FUSE Control File System...
+2026-04-05T11:07:34.928736+00:00 ip-172-31-75-209 kernel: Command line: BOOT_IMAGE=/vmlinuz-6.17.0-1007-aws root=PARTUUID=d43079ff-5308-4a29-8b13-319a73e19584 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+2026-04-05T11:07:34.928738+00:00 ip-172-31-75-209 kernel: KERNEL supported cpus:
+2026-04-05T11:07:34.928739+00:00 ip-172-31-75-209 kernel:   Intel GenuineIntel
+2026-04-05T11:07:34.928740+00:00 ip-172-31-75-209 kernel:   AMD AuthenticAMD
+2026-04-05T11:07:34.928741+00:00 ip-172-31-75-209 kernel:   Hygon HygonGenuine
+2026-04-05T11:07:34.928741+00:00 ip-172-31-75-209 kernel:   Centaur CentaurHauls
+2026-04-05T11:07:34.928745+00:00 ip-172-31-75-209 kernel:   zhaoxin   Shanghai  
+2026-04-05T11:07:34.928745+00:00 ip-172-31-75-209 kernel: BIOS-provided physical RAM map:
+2026-04-05T11:07:34.928746+00:00 ip-172-31-75-209 kernel: BIOS-e820: [mem 0x0000000000000000-0x000000000009ffff] usable
+2026-04-05T11:07:34.928747+00:00 ip-172-31-75-209 kernel: BIOS-e820: [mem 0x0000000000100000-0x00000000390cdfff] usable
+2026-04-05T11:07:34.928748+00:00 ip-172-31-75-209 kernel: BIOS-e820: [mem 0x00000000390ce000-0x000000003934dfff] reserved
+2026-04-05T11:07:34.928749+00:00 ip-172-31-75-209 kernel: BIOS-e820: [mem 0x000000003934e000-0x000000003935dfff] ACPI data
+2026-04-05T11:07:34.928752+00:00 ip-172-31-75-209 kernel: BIOS-e820: [mem 0x000000003935e000-0x00000000393ddfff] ACPI NVS
+2026-04-05T11:07:34.928753+00:00 ip-172-31-75-209 kernel: BIOS-e820: [mem 0x00000000393de000-0x000000003d37bfff] usable
+2026-04-05T11:07:34.928754+00:00 ip-172-31-75-209 kernel: BIOS-e820: [mem 0x000000003d37c000-0x000000003d3fffff] reserved
+2026-04-05T11:07:34.928754+00:00 ip-172-31-75-209 kernel: NX (Execute Disable) protection: active
+2026-04-05T11:07:34.928755+00:00 ip-172-31-75-209 kernel: APIC: Static calls initialized
+2026-04-05T11:07:34.928756+00:00 ip-172-31-75-209 kernel: efi: EFI v2.7 by EDK II
+2026-04-05T11:07:34.928757+00:00 ip-172-31-75-209 kernel: efi: SMBIOS=0x3926a000 ACPI=0x3935d000 ACPI 2.0=0x3935d014 MEMATTR=0x37a0e018 MOKvar=0x39258000 INITRD=0x372cdf18 
+2026-04-05T11:07:34.928760+00:00 ip-172-31-75-209 kernel: SMBIOS 2.7 present.
+2026-04-05T11:07:34.928761+00:00 ip-172-31-75-209 kernel: DMI: Amazon EC2 t3.micro/, BIOS 1.0 10/16/2017
+2026-04-05T11:07:34.928761+00:00 ip-172-31-75-209 kernel: DMI: Memory slots populated: 1/1
+2026-04-05T11:07:34.928762+00:00 ip-172-31-75-209 kernel: secureboot: Secure boot disabled
+2026-04-05T11:07:34.928763+00:00 ip-172-31-75-209 kernel: Hypervisor detected: KVM
+2026-04-05T11:07:34.928763+00:00 ip-172-31-75-209 kernel: last_pfn = 0x3d37c max_arch_pfn = 0x400000000
+2026-04-05T11:07:34.928766+00:00 ip-172-31-75-209 kernel: kvm-clock: Using msrs 4b564d01 and 4b564d00
+2026-04-05T11:07:34.928767+00:00 ip-172-31-75-209 kernel: kvm-clock: using sched offset of 2016758480 cycles
+2026-04-05T11:07:34.928768+00:00 ip-172-31-75-209 kernel: clocksource: kvm-clock: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+2026-04-05T11:07:34.928768+00:00 ip-172-31-75-209 kernel: tsc: Detected 2499.998 MHz processor
+2026-04-05T11:07:34.928769+00:00 ip-172-31-75-209 kernel: e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+2026-04-05T11:07:34.928770+00:00 ip-172-31-75-209 kernel: e820: remove [mem 0x000a0000-0x000fffff] usable
+2026-04-05T11:07:34.928773+00:00 ip-172-31-75-209 kernel: last_pfn = 0x3d37c max_arch_pfn = 0x400000000
+2026-04-05T11:07:34.928773+00:00 ip-172-31-75-209 kernel: MTRR map: 4 entries (2 fixed + 2 variable; max 18), built from 8 variable MTRRs
+2026-04-05T11:07:34.928774+00:00 ip-172-31-75-209 kernel: x86/PAT: Configuration [0-7]: WB  WC  UC- UC  WB  WP  UC- WT  
+2026-04-05T11:07:34.928775+00:00 ip-172-31-75-209 kernel: Using GB pages for direct mapping
+2026-04-05T11:07:34.928776+00:00 ip-172-31-75-209 kernel: secureboot: Secure boot disabled
+2026-04-05T11:07:34.928776+00:00 ip-172-31-75-209 kernel: RAMDISK: [mem 0x31c61000-0x32aa2fff]
+2026-04-05T11:07:34.928777+00:00 ip-172-31-75-209 kernel: ACPI: Early table checksum verification disabled
+2026-04-05T11:07:34.928780+00:00 ip-172-31-75-209 kernel: ACPI: RSDP 0x000000003935D014 000024 (v02 AMAZON)
+2026-04-05T11:07:34.928781+00:00 ip-172-31-75-209 kernel: ACPI: XSDT 0x000000003935C0E8 00006C (v01 AMAZON AMZNFACP 00000001      01000013)
+2026-04-05T11:07:34.928781+00:00 ip-172-31-75-209 kernel: ACPI: FACP 0x0000000039355000 000114 (v01 AMAZON AMZNFACP 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928782+00:00 ip-172-31-75-209 kernel: ACPI: DSDT 0x0000000039356000 00115A (v01 AMAZON AMZNDSDT 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928783+00:00 ip-172-31-75-209 kernel: ACPI: FACS 0x00000000393D0000 000040
+2026-04-05T11:07:34.928783+00:00 ip-172-31-75-209 kernel: ACPI: WAET 0x000000003935B000 000028 (v01 AMAZON AMZNWAET 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928786+00:00 ip-172-31-75-209 kernel: ACPI: SLIT 0x000000003935A000 00006C (v01 AMAZON AMZNSLIT 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928787+00:00 ip-172-31-75-209 kernel: ACPI: APIC 0x0000000039359000 000076 (v01 AMAZON AMZNAPIC 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928788+00:00 ip-172-31-75-209 kernel: ACPI: SRAT 0x0000000039358000 0000A0 (v01 AMAZON AMZNSRAT 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928788+00:00 ip-172-31-75-209 kernel: ACPI: HPET 0x0000000039354000 000038 (v01 AMAZON AMZNHPET 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928789+00:00 ip-172-31-75-209 kernel: ACPI: SSDT 0x0000000039353000 000759 (v01 AMAZON AMZNSSDT 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928790+00:00 ip-172-31-75-209 kernel: ACPI: SSDT 0x0000000039352000 0000D1 (v01 AMAZON AMZNSSDT 00000001 AMZN 00000001)
+2026-04-05T11:07:34.928793+00:00 ip-172-31-75-209 kernel: ACPI: BGRT 0x0000000039351000 000038 (v01 AMAZON AMAZON   00000002      01000013)
+2026-04-05T11:07:34.928711+00:00 ip-172-31-75-209 systemd[1]: Mounting sys-kernel-config.mount - Kernel Configuration File System...
+2026-04-05T11:07:34.928793+00:00 ip-172-31-75-209 kernel: ACPI: Reserving FACP table memory at [mem 0x39355000-0x39355113]
+2026-04-05T11:07:34.928929+00:00 ip-172-31-75-209 kernel: ACPI: Reserving DSDT table memory at [mem 0x39356000-0x39357159]
+2026-04-05T11:07:34.928930+00:00 ip-172-31-75-209 kernel: ACPI: Reserving FACS table memory at [mem 0x393d0000-0x393d003f]
+2026-04-05T11:07:34.928931+00:00 ip-172-31-75-209 kernel: ACPI: Reserving WAET table memory at [mem 0x3935b000-0x3935b027]
+2026-04-05T11:07:34.928931+00:00 ip-172-31-75-209 kernel: ACPI: Reserving SLIT table memory at [mem 0x3935a000-0x3935a06b]
+2026-04-05T11:07:34.928932+00:00 ip-172-31-75-209 kernel: ACPI: Reserving APIC table memory at [mem 0x39359000-0x39359075]
+2026-04-05T11:07:34.928936+00:00 ip-172-31-75-209 kernel: ACPI: Reserving SRAT table memory at [mem 0x39358000-0x3935809f]
+2026-04-05T11:07:34.928936+00:00 ip-172-31-75-209 kernel: ACPI: Reserving HPET table memory at [mem 0x39354000-0x39354037]
+2026-04-05T11:07:34.928937+00:00 ip-172-31-75-209 kernel: ACPI: Reserving SSDT table memory at [mem 0x39353000-0x39353758]
+2026-04-05T11:07:34.928937+00:00 ip-172-31-75-209 kernel: ACPI: Reserving SSDT table memory at [mem 0x39352000-0x393520d0]
+2026-04-05T11:07:34.928938+00:00 ip-172-31-75-209 kernel: ACPI: Reserving BGRT table memory at [mem 0x39351000-0x39351037]
+2026-04-05T11:07:34.928938+00:00 ip-172-31-75-209 kernel: ACPI: SRAT: Node 0 PXM 0 [mem 0x00000000-0x3fffffff]
+2026-04-05T11:07:34.928941+00:00 ip-172-31-75-209 kernel: NODE_DATA(0) allocated [mem 0x3b2cb2c0-0x3b2f5fff]
+2026-04-05T11:07:34.928942+00:00 ip-172-31-75-209 kernel: Zone ranges:
+2026-04-05T11:07:34.928942+00:00 ip-172-31-75-209 kernel:   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+2026-04-05T11:07:34.928943+00:00 ip-172-31-75-209 kernel:   DMA32    [mem 0x0000000001000000-0x000000003d37bfff]
+2026-04-05T11:07:34.928943+00:00 ip-172-31-75-209 kernel:   Normal   empty
+2026-04-05T11:07:34.928944+00:00 ip-172-31-75-209 kernel:   Device   empty
+2026-04-05T11:07:34.928944+00:00 ip-172-31-75-209 kernel: Movable zone start for each node
+2026-04-05T11:07:34.928947+00:00 ip-172-31-75-209 kernel: Early memory node ranges
+2026-04-05T11:07:34.928948+00:00 ip-172-31-75-209 kernel:   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+2026-04-05T11:07:34.928949+00:00 ip-172-31-75-209 kernel:   node   0: [mem 0x0000000000100000-0x00000000390cdfff]
+2026-04-05T11:07:34.928949+00:00 ip-172-31-75-209 kernel:   node   0: [mem 0x00000000393de000-0x000000003d37bfff]
+2026-04-05T11:07:34.928950+00:00 ip-172-31-75-209 kernel: Initmem setup node 0 [mem 0x0000000000001000-0x000000003d37bfff]
+2026-04-05T11:07:34.928950+00:00 ip-172-31-75-209 kernel: On node 0, zone DMA: 1 pages in unavailable ranges
+2026-04-05T11:07:34.928954+00:00 ip-172-31-75-209 kernel: On node 0, zone DMA: 96 pages in unavailable ranges
+2026-04-05T11:07:34.928954+00:00 ip-172-31-75-209 kernel: On node 0, zone DMA32: 784 pages in unavailable ranges
+2026-04-05T11:07:34.928955+00:00 ip-172-31-75-209 kernel: On node 0, zone DMA32: 11396 pages in unavailable ranges
+2026-04-05T11:07:34.928955+00:00 ip-172-31-75-209 kernel: ACPI: PM-Timer IO Port: 0xb008
+2026-04-05T11:07:34.928956+00:00 ip-172-31-75-209 kernel: ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+2026-04-05T11:07:34.928956+00:00 ip-172-31-75-209 kernel: IOAPIC[0]: apic_id 0, version 32, address 0xfec00000, GSI 0-23
+2026-04-05T11:07:34.928959+00:00 ip-172-31-75-209 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+2026-04-05T11:07:34.928960+00:00 ip-172-31-75-209 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+2026-04-05T11:07:34.928961+00:00 ip-172-31-75-209 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+2026-04-05T11:07:34.928961+00:00 ip-172-31-75-209 kernel: ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+2026-04-05T11:07:34.928962+00:00 ip-172-31-75-209 kernel: ACPI: Using ACPI (MADT) for SMP configuration information
+2026-04-05T11:07:34.928962+00:00 ip-172-31-75-209 kernel: ACPI: HPET id: 0x8086a201 base: 0xfed00000
+2026-04-05T11:07:34.928963+00:00 ip-172-31-75-209 kernel: e820: update [mem 0x3734b000-0x37366fff] usable ==> reserved
+2026-04-05T11:07:34.928967+00:00 ip-172-31-75-209 kernel: TSC deadline timer available
+2026-04-05T11:07:34.928967+00:00 ip-172-31-75-209 kernel: CPU topo: Max. logical packages:   1
+2026-04-05T11:07:34.928968+00:00 ip-172-31-75-209 kernel: CPU topo: Max. logical dies:       1
+2026-04-05T11:07:34.928969+00:00 ip-172-31-75-209 kernel: CPU topo: Max. dies per package:   1
+2026-04-05T11:07:34.928969+00:00 ip-172-31-75-209 kernel: CPU topo: Max. threads per core:   2
+2026-04-05T11:07:34.928970+00:00 ip-172-31-75-209 kernel: CPU topo: Num. cores per package:     1
+2026-04-05T11:07:34.928917+00:00 ip-172-31-75-209 systemd[1]: Started systemd-fsckd.service - File System Check Daemon to report status.
+2026-04-05T11:07:34.928998+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-remount-fs.service - Remount Root and Kernel File Systems...
+2026-04-05T11:07:34.929004+00:00 ip-172-31-75-209 systemd[1]: systemd-repart.service - Repartition Root Disk was skipped because no trigger condition checks were met.
+2026-04-05T11:07:34.929009+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully...
+2026-04-05T11:07:34.929012+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-modules-load.service - Load Kernel Modules.
+2026-04-05T11:07:34.929018+00:00 ip-172-31-75-209 systemd[1]: Mounted sys-fs-fuse-connections.mount - FUSE Control File System.
+2026-04-05T11:07:34.929027+00:00 ip-172-31-75-209 systemd[1]: Mounted sys-kernel-config.mount - Kernel Configuration File System.
+2026-04-05T11:07:34.929032+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-sysctl.service - Apply Kernel Variables...
+2026-04-05T11:07:34.929037+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-udev-trigger.service - Coldplug All udev Devices.
+2026-04-05T11:07:34.929041+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-tmpfiles-setup-dev-early.service - Create Static Device Nodes in /dev gracefully.
+2026-04-05T11:07:34.929046+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-sysctl.service - Apply Kernel Variables.
+2026-04-05T11:07:34.929051+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-remount-fs.service - Remount Root and Kernel File Systems.
+2026-04-05T11:07:34.929163+00:00 ip-172-31-75-209 systemd[1]: Starting multipathd.service - Device-Mapper Multipath Device Controller...
+2026-04-05T11:07:34.929169+00:00 ip-172-31-75-209 systemd[1]: systemd-hwdb-update.service - Rebuild Hardware Database was skipped because no trigger condition checks were met.
+2026-04-05T11:07:34.929174+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-journal-flush.service - Flush Journal to Persistent Storage...
+2026-04-05T11:07:34.929178+00:00 ip-172-31-75-209 systemd[1]: systemd-pstore.service - Platform Persistent Storage Archival was skipped because of an unmet condition check (ConditionDirectoryNotEmpty=/sys/fs/pstore).
+2026-04-05T11:07:34.929182+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-random-seed.service - Load/Save OS Random Seed...
+2026-04-05T11:07:34.929195+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-sysusers.service - Create System Users...
+2026-04-05T11:07:34.929200+00:00 ip-172-31-75-209 systemd[1]: systemd-tpm2-setup.service - TPM2 SRK Setup was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-04-05T11:07:34.929204+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-random-seed.service - Load/Save OS Random Seed.
+2026-04-05T11:07:34.929209+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-journal-flush.service - Flush Journal to Persistent Storage.
+2026-04-05T11:07:34.929071+00:00 ip-172-31-75-209 kernel: CPU topo: Num. threads per package:   2
+2026-04-05T11:07:34.929316+00:00 ip-172-31-75-209 kernel: CPU topo: Allowing 2 present CPUs plus 0 hotplug CPUs
+2026-04-05T11:07:34.929317+00:00 ip-172-31-75-209 kernel: kvm-guest: APIC: eoi() replaced with kvm_guest_apic_eoi_write()
+2026-04-05T11:07:34.929317+00:00 ip-172-31-75-209 kernel: PM: hibernation: Registered nosave memory: [mem 0x00000000-0x00000fff]
+2026-04-05T11:07:34.929318+00:00 ip-172-31-75-209 kernel: PM: hibernation: Registered nosave memory: [mem 0x000a0000-0x000fffff]
+2026-04-05T11:07:34.929319+00:00 ip-172-31-75-209 kernel: PM: hibernation: Registered nosave memory: [mem 0x3734b000-0x37366fff]
+2026-04-05T11:07:34.929319+00:00 ip-172-31-75-209 kernel: PM: hibernation: Registered nosave memory: [mem 0x390ce000-0x393ddfff]
+2026-04-05T11:07:34.929320+00:00 ip-172-31-75-209 kernel: [mem 0x3d400000-0xffffffff] available for PCI devices
+2026-04-05T11:07:34.929324+00:00 ip-172-31-75-209 kernel: Booting paravirtualized kernel on KVM
+2026-04-05T11:07:34.929325+00:00 ip-172-31-75-209 kernel: clocksource: refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1910969940391419 ns
+2026-04-05T11:07:34.929325+00:00 ip-172-31-75-209 kernel: setup_percpu: NR_CPUS:8192 nr_cpumask_bits:2 nr_cpu_ids:2 nr_node_ids:1
+2026-04-05T11:07:34.929326+00:00 ip-172-31-75-209 kernel: percpu: Embedded 84 pages/cpu s221184 r8192 d114688 u1048576
+2026-04-05T11:07:34.929213+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-sysusers.service - Create System Users.
+2026-04-05T11:07:34.929399+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev...
+2026-04-05T11:07:34.929404+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-tmpfiles-setup-dev.service - Create Static Device Nodes in /dev.
+2026-04-05T11:07:34.929409+00:00 ip-172-31-75-209 multipathd[181]: multipathd v0.9.4: start up
+2026-04-05T11:07:34.929414+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-udevd.service - Rule-based Manager for Device Events and Files...
+2026-04-05T11:07:34.929418+00:00 ip-172-31-75-209 multipathd[181]: reconfigure: setting up paths and maps
+2026-04-05T11:07:34.929423+00:00 ip-172-31-75-209 systemd[1]: Started multipathd.service - Device-Mapper Multipath Device Controller.
+2026-04-05T11:07:34.929429+00:00 ip-172-31-75-209 systemd[1]: Reached target local-fs-pre.target - Preparation for Local File Systems.
+2026-04-05T11:07:34.929437+00:00 ip-172-31-75-209 systemd[1]: Mounting snap-amazon\x2dssm\x2dagent-12322.mount - Mount unit for amazon-ssm-agent, revision 12322...
+2026-04-05T11:07:34.929441+00:00 ip-172-31-75-209 systemd[1]: Mounting snap-core22-2339.mount - Mount unit for core22, revision 2339...
+2026-04-05T11:07:34.929445+00:00 ip-172-31-75-209 systemd[1]: Mounting snap-snapd-25935.mount - Mount unit for snapd, revision 25935...
+2026-04-05T11:07:34.929450+00:00 ip-172-31-75-209 systemd[1]: Mounted snap-amazon\x2dssm\x2dagent-12322.mount - Mount unit for amazon-ssm-agent, revision 12322.
+2026-04-05T11:07:34.931605+00:00 ip-172-31-75-209 kernel: pcpu-alloc: s221184 r8192 d114688 u1048576 alloc=1*2097152
+2026-04-05T11:07:34.929454+00:00 ip-172-31-75-209 systemd[1]: Mounted snap-snapd-25935.mount - Mount unit for snapd, revision 25935.
+2026-04-05T11:07:34.931732+00:00 ip-172-31-75-209 systemd-udevd[193]: Using default interface naming scheme 'v255'.
+2026-04-05T11:07:34.931740+00:00 ip-172-31-75-209 systemd[1]: Mounted snap-core22-2339.mount - Mount unit for core22, revision 2339.
+2026-04-05T11:07:34.931745+00:00 ip-172-31-75-209 systemd[1]: Reached target snapd.mounts.target - Mounted snaps.
+2026-04-05T11:07:34.931750+00:00 ip-172-31-75-209 systemd[1]: Started systemd-udevd.service - Rule-based Manager for Device Events and Files.
+2026-04-05T11:07:34.931756+00:00 ip-172-31-75-209 systemd[1]: plymouth-start.service - Show Plymouth Boot Screen was skipped because of an unmet condition check (ConditionKernelCommandLine=splash).
+2026-04-05T11:07:34.931761+00:00 ip-172-31-75-209 systemd[1]: Started systemd-ask-password-console.path - Dispatch Password Requests to Console Directory Watch.
+2026-04-05T11:07:34.931769+00:00 ip-172-31-75-209 systemd[1]: systemd-ask-password-plymouth.path - Forward Password Requests to Plymouth Directory Watch was skipped because of an unmet condition check (ConditionPathExists=/run/plymouth/pid).
+2026-04-05T11:07:34.932237+00:00 ip-172-31-75-209 kernel: pcpu-alloc: [0] 0 1 
+2026-04-05T11:07:34.932247+00:00 ip-172-31-75-209 kernel: kvm-guest: PV spinlocks enabled
+2026-04-05T11:07:34.932248+00:00 ip-172-31-75-209 kernel: PV qspinlock hash table entries: 256 (order: 0, 4096 bytes, linear)
+2026-04-05T11:07:34.932249+00:00 ip-172-31-75-209 kernel: Kernel command line: BOOT_IMAGE=/vmlinuz-6.17.0-1007-aws root=PARTUUID=d43079ff-5308-4a29-8b13-319a73e19584 ro console=tty1 console=ttyS0 nvme_core.io_timeout=4294967295 panic=-1
+2026-04-05T11:07:34.932250+00:00 ip-172-31-75-209 kernel: random: crng init done
+2026-04-05T11:07:34.932250+00:00 ip-172-31-75-209 kernel: printk: log buffer data + meta data: 262144 + 917504 = 1179648 bytes
+2026-04-05T11:07:34.932251+00:00 ip-172-31-75-209 kernel: Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+2026-04-05T11:07:34.932254+00:00 ip-172-31-75-209 kernel: Inode-cache hash table entries: 65536 (order: 7, 524288 bytes, linear)
+2026-04-05T11:07:34.932255+00:00 ip-172-31-75-209 kernel: Fallback order for Node 0: 0 
+2026-04-05T11:07:34.932256+00:00 ip-172-31-75-209 kernel: Built 1 zonelists, mobility grouping on.  Total pages: 249867
+2026-04-05T11:07:34.932256+00:00 ip-172-31-75-209 kernel: Policy zone: DMA32
+2026-04-05T11:07:34.932257+00:00 ip-172-31-75-209 kernel: mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+2026-04-05T11:07:34.932258+00:00 ip-172-31-75-209 kernel: SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=2, Nodes=1
+2026-04-05T11:07:34.932261+00:00 ip-172-31-75-209 kernel: Kernel/User page tables isolation: enabled
+2026-04-05T11:07:34.932262+00:00 ip-172-31-75-209 kernel: ftrace section at ffffffffac8cfbc0 sorted properly
+2026-04-05T11:07:34.932262+00:00 ip-172-31-75-209 kernel: ftrace: allocating 61494 entries in 242 pages
+2026-04-05T11:07:34.932263+00:00 ip-172-31-75-209 kernel: ftrace: allocated 242 pages with 5 groups
+2026-04-05T11:07:34.932264+00:00 ip-172-31-75-209 kernel: rcu: Hierarchical RCU implementation.
+2026-04-05T11:07:34.932264+00:00 ip-172-31-75-209 kernel: rcu: 	RCU restricting CPUs from NR_CPUS=8192 to nr_cpu_ids=2.
+2026-04-05T11:07:34.932265+00:00 ip-172-31-75-209 kernel: 	Rude variant of Tasks RCU enabled.
+2026-04-05T11:07:34.932268+00:00 ip-172-31-75-209 kernel: 	Tracing variant of Tasks RCU enabled.
+2026-04-05T11:07:34.932269+00:00 ip-172-31-75-209 kernel: rcu: RCU calculated value of scheduler-enlistment delay is 100 jiffies.
+2026-04-05T11:07:34.932270+00:00 ip-172-31-75-209 kernel: rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=2
+2026-04-05T11:07:34.932271+00:00 ip-172-31-75-209 kernel: RCU Tasks Rude: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-05T11:07:34.932271+00:00 ip-172-31-75-209 kernel: RCU Tasks Trace: Setting shift to 1 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=2.
+2026-04-05T11:07:34.932272+00:00 ip-172-31-75-209 kernel: NR_IRQS: 524544, nr_irqs: 440, preallocated irqs: 16
+2026-04-05T11:07:34.932275+00:00 ip-172-31-75-209 kernel: rcu: srcu_init: Setting srcu_struct sizes based on contention.
+2026-04-05T11:07:34.932276+00:00 ip-172-31-75-209 kernel: Console: colour dummy device 80x25
+2026-04-05T11:07:34.932277+00:00 ip-172-31-75-209 kernel: printk: legacy console [tty1] enabled
+2026-04-05T11:07:34.932277+00:00 ip-172-31-75-209 kernel: printk: legacy console [ttyS0] enabled
+2026-04-05T11:07:34.932278+00:00 ip-172-31-75-209 kernel: ACPI: Core revision 20250404
+2026-04-05T11:07:34.932279+00:00 ip-172-31-75-209 kernel: clocksource: hpet: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 30580167144 ns
+2026-04-05T11:07:34.932282+00:00 ip-172-31-75-209 kernel: APIC: Switch to symmetric I/O mode setup
+2026-04-05T11:07:34.932283+00:00 ip-172-31-75-209 kernel: x2apic enabled
+2026-04-05T11:07:34.932284+00:00 ip-172-31-75-209 kernel: APIC: Switched APIC routing to: physical x2apic
+2026-04-05T11:07:34.932284+00:00 ip-172-31-75-209 kernel: clocksource: tsc-early: mask: 0xffffffffffffffff max_cycles: 0x240937b9988, max_idle_ns: 440795218083 ns
+2026-04-05T11:07:34.932286+00:00 ip-172-31-75-209 kernel: Calibrating delay loop (skipped) preset value.. 4999.99 BogoMIPS (lpj=2499998)
+2026-04-05T11:07:34.932286+00:00 ip-172-31-75-209 kernel: Last level iTLB entries: 4KB 64, 2MB 8, 4MB 8
+2026-04-05T11:07:34.932287+00:00 ip-172-31-75-209 kernel: Last level dTLB entries: 4KB 64, 2MB 32, 4MB 32, 1GB 4
+2026-04-05T11:07:34.932290+00:00 ip-172-31-75-209 kernel: mitigations: Enabled attack vectors: user_kernel, user_user, guest_host, guest_guest, SMT mitigations: auto
+2026-04-05T11:07:34.932291+00:00 ip-172-31-75-209 kernel: Speculative Store Bypass: Vulnerable
+2026-04-05T11:07:34.932292+00:00 ip-172-31-75-209 kernel: Spectre V2 : Mitigation: Retpolines
+2026-04-05T11:07:34.932292+00:00 ip-172-31-75-209 kernel: RETBleed: Vulnerable
+2026-04-05T11:07:34.932293+00:00 ip-172-31-75-209 kernel: ITS: Mitigation: Aligned branch/return thunks
+2026-04-05T11:07:34.932293+00:00 ip-172-31-75-209 kernel: MDS: Vulnerable: Clear CPU buffers attempted, no microcode
+2026-04-05T11:07:34.931782+00:00 ip-172-31-75-209 systemd[1]: Reached target cryptsetup.target - Local Encrypted Volumes.
+2026-04-05T11:07:34.932484+00:00 ip-172-31-75-209 systemd[1]: Found device dev-ttyS0.device - /dev/ttyS0.
+2026-04-05T11:07:34.932492+00:00 ip-172-31-75-209 multipath: nvme0n1: uid = nvme.1d0f-766f6c3062356534313239366265366562656461-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001 (sysfs)
+2026-04-05T11:07:34.932499+00:00 ip-172-31-75-209 systemd[1]: Found device dev-disk-by\x2dlabel-UEFI.device - Amazon Elastic Block Store UEFI.
+2026-04-05T11:07:34.932504+00:00 ip-172-31-75-209 systemd[1]: Found device dev-disk-by\x2dlabel-BOOT.device - Amazon Elastic Block Store BOOT.
+2026-04-05T11:07:34.932512+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT...
+2026-04-05T11:07:34.932517+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI...
+2026-04-05T11:07:34.933001+00:00 ip-172-31-75-209 kernel: MMIO Stale Data: Vulnerable: Clear CPU buffers attempted, no microcode
+2026-04-05T11:07:34.933005+00:00 ip-172-31-75-209 kernel: Spectre V1 : Mitigation: usercopy/swapgs barriers and __user pointer sanitization
+2026-04-05T11:07:34.933006+00:00 ip-172-31-75-209 kernel: Spectre V2 : Spectre v2 / SpectreRSB: Filling RSB on context switch and VMEXIT
+2026-04-05T11:07:34.933007+00:00 ip-172-31-75-209 kernel: GDS: Unknown: Dependent on hypervisor status
+2026-04-05T11:07:34.933007+00:00 ip-172-31-75-209 kernel: active return thunk: its_return_thunk
+2026-04-05T11:07:34.933008+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x001: 'x87 floating point registers'
+2026-04-05T11:07:34.933020+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x002: 'SSE registers'
+2026-04-05T11:07:34.933021+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x004: 'AVX registers'
+2026-04-05T11:07:34.933021+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x008: 'MPX bounds registers'
+2026-04-05T11:07:34.933022+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x010: 'MPX CSR'
+2026-04-05T11:07:34.933023+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x020: 'AVX-512 opmask'
+2026-04-05T11:07:34.933023+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x040: 'AVX-512 Hi256'
+2026-04-05T11:07:34.933024+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x080: 'AVX-512 ZMM_Hi256'
+2026-04-05T11:07:34.933027+00:00 ip-172-31-75-209 kernel: x86/fpu: Supporting XSAVE feature 0x200: 'Protection Keys User registers'
+2026-04-05T11:07:34.933028+00:00 ip-172-31-75-209 kernel: x86/fpu: xstate_offset[2]:  576, xstate_sizes[2]:  256
+2026-04-05T11:07:34.933028+00:00 ip-172-31-75-209 kernel: x86/fpu: xstate_offset[3]:  832, xstate_sizes[3]:   64
+2026-04-05T11:07:34.933029+00:00 ip-172-31-75-209 kernel: x86/fpu: xstate_offset[4]:  896, xstate_sizes[4]:   64
+2026-04-05T11:07:34.933029+00:00 ip-172-31-75-209 kernel: x86/fpu: xstate_offset[5]:  960, xstate_sizes[5]:   64
+2026-04-05T11:07:34.933030+00:00 ip-172-31-75-209 kernel: x86/fpu: xstate_offset[6]: 1024, xstate_sizes[6]:  512
+2026-04-05T11:07:34.933034+00:00 ip-172-31-75-209 kernel: x86/fpu: xstate_offset[7]: 1536, xstate_sizes[7]: 1024
+2026-04-05T11:07:34.933034+00:00 ip-172-31-75-209 kernel: x86/fpu: xstate_offset[9]: 2560, xstate_sizes[9]:    8
+2026-04-05T11:07:34.933035+00:00 ip-172-31-75-209 kernel: x86/fpu: Enabled xstate features 0x2ff, context size is 2568 bytes, using 'compacted' format.
+2026-04-05T11:07:34.933036+00:00 ip-172-31-75-209 kernel: Freeing SMP alternatives memory: 52K
+2026-04-05T11:07:34.933036+00:00 ip-172-31-75-209 kernel: pid_max: default: 32768 minimum: 301
+2026-04-05T11:07:34.933037+00:00 ip-172-31-75-209 kernel: LSM: initializing lsm=lockdown,capability,landlock,yama,apparmor,ima,evm
+2026-04-05T11:07:34.933040+00:00 ip-172-31-75-209 kernel: landlock: Up and running.
+2026-04-05T11:07:34.933041+00:00 ip-172-31-75-209 kernel: Yama: becoming mindful.
+2026-04-05T11:07:34.933042+00:00 ip-172-31-75-209 kernel: AppArmor: AppArmor initialized
+2026-04-05T11:07:34.933042+00:00 ip-172-31-75-209 kernel: Mount-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+2026-04-05T11:07:34.933043+00:00 ip-172-31-75-209 kernel: Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes, linear)
+2026-04-05T11:07:34.933043+00:00 ip-172-31-75-209 kernel: smpboot: CPU0: Intel(R) Xeon(R) Platinum 8175M CPU @ 2.50GHz (family: 0x6, model: 0x55, stepping: 0x4)
+2026-04-05T11:07:34.933044+00:00 ip-172-31-75-209 kernel: Performance Events: unsupported CPU family 6 model 85 no PMU driver, software events only.
+2026-04-05T11:07:34.933047+00:00 ip-172-31-75-209 kernel: signal: max sigframe size: 3632
+2026-04-05T11:07:34.933048+00:00 ip-172-31-75-209 kernel: rcu: Hierarchical SRCU implementation.
+2026-04-05T11:07:34.933048+00:00 ip-172-31-75-209 kernel: rcu: 	Max phase no-delay instances is 400.
+2026-04-05T11:07:34.933049+00:00 ip-172-31-75-209 kernel: Timer migration: 1 hierarchy levels; 8 children per group; 1 crossnode level
+2026-04-05T11:07:34.933050+00:00 ip-172-31-75-209 kernel: NMI watchdog: Perf NMI watchdog permanently disabled
+2026-04-05T11:07:34.933050+00:00 ip-172-31-75-209 kernel: smp: Bringing up secondary CPUs ...
+2026-04-05T11:07:34.933054+00:00 ip-172-31-75-209 kernel: smpboot: x86: Booting SMP configuration:
+2026-04-05T11:07:34.933054+00:00 ip-172-31-75-209 kernel: .... node  #0, CPUs:      #1
+2026-04-05T11:07:34.933055+00:00 ip-172-31-75-209 kernel: MDS CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html for more details.
+2026-04-05T11:07:34.933056+00:00 ip-172-31-75-209 kernel: MMIO Stale Data CPU bug present and SMT on, data leak possible. See https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/processor_mmio_stale_data.html for more details.
+2026-04-05T11:07:34.933057+00:00 ip-172-31-75-209 kernel: smp: Brought up 1 node, 2 CPUs
+2026-04-05T11:07:34.933058+00:00 ip-172-31-75-209 kernel: smpboot: Total of 2 processors activated (9999.99 BogoMIPS)
+2026-04-05T11:07:34.932521+00:00 ip-172-31-75-209 systemd-fsck[247]: BOOT: clean, 601/58496 files, 32244/233728 blocks
+2026-04-05T11:07:34.933253+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-BOOT.service - File System Check on /dev/disk/by-label/BOOT.
+2026-04-05T11:07:34.933261+00:00 ip-172-31-75-209 systemd-fsck[248]: fsck.fat 4.2 (2021-01-31)
+2026-04-05T11:07:34.933273+00:00 ip-172-31-75-209 systemd-fsck[248]: /dev/nvme0n1p15: 12 files, 12499/213663 clusters
+2026-04-05T11:07:34.933280+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-fsck@dev-disk-by\x2dlabel-UEFI.service - File System Check on /dev/disk/by-label/UEFI.
+2026-04-05T11:07:34.933285+00:00 ip-172-31-75-209 systemd[1]: Listening on systemd-rfkill.socket - Load/Save RF Kill Switch Status /dev/rfkill Watch.
+2026-04-05T11:07:34.933290+00:00 ip-172-31-75-209 systemd[1]: Mounting boot.mount - /boot...
+2026-04-05T11:07:34.933295+00:00 ip-172-31-75-209 systemd[1]: Mounted boot.mount - /boot.
+2026-04-05T11:07:34.933061+00:00 ip-172-31-75-209 kernel: Memory: 902788K/999468K available (22041K kernel code, 4641K rwdata, 15484K rodata, 5384K init, 6152K bss, 89536K reserved, 0K cma-reserved)
+2026-04-05T11:07:34.934608+00:00 ip-172-31-75-209 kernel: devtmpfs: initialized
+2026-04-05T11:07:34.934610+00:00 ip-172-31-75-209 kernel: x86/mm: Memory block size: 128MB
+2026-04-05T11:07:34.934611+00:00 ip-172-31-75-209 kernel: ACPI: PM: Registering ACPI NVS region [mem 0x3935e000-0x393ddfff] (524288 bytes)
+2026-04-05T11:07:34.934612+00:00 ip-172-31-75-209 kernel: clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 1911260446275000 ns
+2026-04-05T11:07:34.934613+00:00 ip-172-31-75-209 kernel: posixtimers hash table entries: 1024 (order: 2, 16384 bytes, linear)
+2026-04-05T11:07:34.934613+00:00 ip-172-31-75-209 kernel: futex hash table entries: 512 (32768 bytes on 1 NUMA nodes, total 32 KiB, linear).
+2026-04-05T11:07:34.934614+00:00 ip-172-31-75-209 kernel: pinctrl core: initialized pinctrl subsystem
+2026-04-05T11:07:34.934615+00:00 ip-172-31-75-209 kernel: PM: RTC time: 11:07:23, date: 2026-04-05
+2026-04-05T11:07:34.934616+00:00 ip-172-31-75-209 kernel: NET: Registered PF_NETLINK/PF_ROUTE protocol family
+2026-04-05T11:07:34.934617+00:00 ip-172-31-75-209 kernel: DMA: preallocated 128 KiB GFP_KERNEL pool for atomic allocations
+2026-04-05T11:07:34.934617+00:00 ip-172-31-75-209 kernel: DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA pool for atomic allocations
+2026-04-05T11:07:34.934618+00:00 ip-172-31-75-209 kernel: DMA: preallocated 128 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+2026-04-05T11:07:34.934619+00:00 ip-172-31-75-209 kernel: audit: initializing netlink subsys (disabled)
+2026-04-05T11:07:34.934730+00:00 ip-172-31-75-209 kernel: audit: type=2000 audit(1775387243.998:1): state=initialized audit_enabled=0 res=1
+2026-04-05T11:07:34.934731+00:00 ip-172-31-75-209 kernel: thermal_sys: Registered thermal governor 'fair_share'
+2026-04-05T11:07:34.934732+00:00 ip-172-31-75-209 kernel: thermal_sys: Registered thermal governor 'bang_bang'
+2026-04-05T11:07:34.934733+00:00 ip-172-31-75-209 kernel: thermal_sys: Registered thermal governor 'step_wise'
+2026-04-05T11:07:34.934734+00:00 ip-172-31-75-209 kernel: thermal_sys: Registered thermal governor 'user_space'
+2026-04-05T11:07:34.934735+00:00 ip-172-31-75-209 kernel: thermal_sys: Registered thermal governor 'power_allocator'
+2026-04-05T11:07:34.934735+00:00 ip-172-31-75-209 kernel: cpuidle: using governor ladder
+2026-04-05T11:07:34.934736+00:00 ip-172-31-75-209 kernel: cpuidle: using governor menu
+2026-04-05T11:07:34.934737+00:00 ip-172-31-75-209 kernel: acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+2026-04-05T11:07:34.934738+00:00 ip-172-31-75-209 kernel: PCI: Using configuration type 1 for base access
+2026-04-05T11:07:34.934739+00:00 ip-172-31-75-209 kernel: kprobes: kprobe jump-optimization is enabled. All kprobes are optimized if possible.
+2026-04-05T11:07:34.934739+00:00 ip-172-31-75-209 kernel: HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+2026-04-05T11:07:34.934740+00:00 ip-172-31-75-209 kernel: HugeTLB: 16380 KiB vmemmap can be freed for a 1.00 GiB page
+2026-04-05T11:07:34.934741+00:00 ip-172-31-75-209 kernel: HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+2026-04-05T11:07:34.934741+00:00 ip-172-31-75-209 kernel: HugeTLB: 28 KiB vmemmap can be freed for a 2.00 MiB page
+2026-04-05T11:07:34.934742+00:00 ip-172-31-75-209 kernel: fbcon: Taking over console
+2026-04-05T11:07:34.934743+00:00 ip-172-31-75-209 kernel: ACPI: Added _OSI(Module Device)
+2026-04-05T11:07:34.934744+00:00 ip-172-31-75-209 kernel: ACPI: Added _OSI(Processor Device)
+2026-04-05T11:07:34.934745+00:00 ip-172-31-75-209 kernel: ACPI: Added _OSI(Processor Aggregator Device)
+2026-04-05T11:07:34.934746+00:00 ip-172-31-75-209 kernel: ACPI: 3 ACPI AML tables successfully acquired and loaded
+2026-04-05T11:07:34.934746+00:00 ip-172-31-75-209 kernel: ACPI: Interpreter enabled
+2026-04-05T11:07:34.934747+00:00 ip-172-31-75-209 kernel: ACPI: PM: (supports S0 S4 S5)
+2026-04-05T11:07:34.934748+00:00 ip-172-31-75-209 kernel: ACPI: Using IOAPIC for interrupt routing
+2026-04-05T11:07:34.934749+00:00 ip-172-31-75-209 kernel: PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+2026-04-05T11:07:34.934749+00:00 ip-172-31-75-209 kernel: PCI: Using E820 reservations for host bridge windows
+2026-04-05T11:07:34.934750+00:00 ip-172-31-75-209 kernel: ACPI: Enabled 2 GPEs in block 00 to 0F
+2026-04-05T11:07:34.934751+00:00 ip-172-31-75-209 kernel: ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+2026-04-05T11:07:34.934751+00:00 ip-172-31-75-209 kernel: acpi PNP0A03:00: _OSC: OS supports [ASPM ClockPM Segments MSI EDR HPX-Type3]
+2026-04-05T11:07:34.934752+00:00 ip-172-31-75-209 kernel: acpi PNP0A03:00: _OSC: not requesting OS control; OS requires [ExtendedConfig ASPM ClockPM MSI]
+2026-04-05T11:07:34.934753+00:00 ip-172-31-75-209 kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+2026-04-05T11:07:34.934754+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [3] registered
+2026-04-05T11:07:34.934755+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [4] registered
+2026-04-05T11:07:34.934756+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [5] registered
+2026-04-05T11:07:34.934756+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [6] registered
+2026-04-05T11:07:34.934757+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [7] registered
+2026-04-05T11:07:34.934758+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [8] registered
+2026-04-05T11:07:34.934758+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [9] registered
+2026-04-05T11:07:34.934759+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [10] registered
+2026-04-05T11:07:34.934760+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [11] registered
+2026-04-05T11:07:34.934761+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [12] registered
+2026-04-05T11:07:34.934762+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [13] registered
+2026-04-05T11:07:34.934763+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [14] registered
+2026-04-05T11:07:34.934763+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [15] registered
+2026-04-05T11:07:34.934764+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [16] registered
+2026-04-05T11:07:34.934765+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [17] registered
+2026-04-05T11:07:34.934765+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [18] registered
+2026-04-05T11:07:34.934766+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [19] registered
+2026-04-05T11:07:34.934767+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [20] registered
+2026-04-05T11:07:34.934768+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [21] registered
+2026-04-05T11:07:34.934768+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [22] registered
+2026-04-05T11:07:34.934769+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [23] registered
+2026-04-05T11:07:34.934770+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [24] registered
+2026-04-05T11:07:34.934771+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [25] registered
+2026-04-05T11:07:34.934771+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [26] registered
+2026-04-05T11:07:34.934772+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [27] registered
+2026-04-05T11:07:34.934773+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [28] registered
+2026-04-05T11:07:34.934773+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [29] registered
+2026-04-05T11:07:34.934774+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [30] registered
+2026-04-05T11:07:34.934775+00:00 ip-172-31-75-209 kernel: acpiphp: Slot [31] registered
+2026-04-05T11:07:34.934776+00:00 ip-172-31-75-209 kernel: PCI host bridge to bus 0000:00
+2026-04-05T11:07:34.934776+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7 window]
+2026-04-05T11:07:34.934777+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: root bus resource [io  0x0d00-0xffff window]
+2026-04-05T11:07:34.934778+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff window]
+2026-04-05T11:07:34.934779+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: root bus resource [mem 0x80000000-0xfebfffff window]
+2026-04-05T11:07:34.934779+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: root bus resource [mem 0x100000000-0x2000ffffffff window]
+2026-04-05T11:07:34.934780+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: root bus resource [bus 00-ff]
+2026-04-05T11:07:34.934781+00:00 ip-172-31-75-209 kernel: pci 0000:00:00.0: [8086:1237] type 00 class 0x060000 conventional PCI endpoint
+2026-04-05T11:07:34.934782+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.0: [8086:7000] type 00 class 0x060100 conventional PCI endpoint
+2026-04-05T11:07:34.934782+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: [8086:7113] type 00 class 0x000000 conventional PCI endpoint
+2026-04-05T11:07:34.934783+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+2026-04-05T11:07:34.934784+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: PIIX4 devres E PIO at fff0-ffff
+2026-04-05T11:07:34.934785+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: PIIX4 devres F MMIO at ffc00000-ffffffff
+2026-04-05T11:07:34.934785+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: PIIX4 devres G PIO at fff0-ffff
+2026-04-05T11:07:34.934786+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: PIIX4 devres H MMIO at ffc00000-ffffffff
+2026-04-05T11:07:34.934787+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: PIIX4 devres I PIO at fff0-ffff
+2026-04-05T11:07:34.934787+00:00 ip-172-31-75-209 kernel: pci 0000:00:01.3: PIIX4 devres J PIO at fff0-ffff
+2026-04-05T11:07:34.934788+00:00 ip-172-31-75-209 kernel: pci 0000:00:03.0: [1d0f:1111] type 00 class 0x030000 conventional PCI endpoint
+2026-04-05T11:07:34.934789+00:00 ip-172-31-75-209 kernel: pci 0000:00:03.0: BAR 0 [mem 0x80000000-0x803fffff pref]
+2026-04-05T11:07:34.934790+00:00 ip-172-31-75-209 kernel: pci 0000:00:03.0: ROM [mem 0xffff0000-0xffffffff pref]
+2026-04-05T11:07:34.934790+00:00 ip-172-31-75-209 kernel: pci 0000:00:03.0: Video device with shadowed ROM at [mem 0x000c0000-0x000dffff]
+2026-04-05T11:07:34.934791+00:00 ip-172-31-75-209 kernel: pci 0000:00:04.0: [1d0f:8061] type 00 class 0x010802 PCIe Endpoint
+2026-04-05T11:07:34.934793+00:00 ip-172-31-75-209 kernel: pci 0000:00:04.0: BAR 0 [mem 0x80404000-0x80407fff]
+2026-04-05T11:07:34.934793+00:00 ip-172-31-75-209 kernel: pci 0000:00:05.0: [1d0f:ec20] type 00 class 0x020000 PCIe Endpoint
+2026-04-05T11:07:34.934794+00:00 ip-172-31-75-209 kernel: pci 0000:00:05.0: BAR 0 [mem 0x80400000-0x80403fff]
+2026-04-05T11:07:34.934795+00:00 ip-172-31-75-209 kernel: ACPI: PCI: Interrupt link LNKA configured for IRQ 10
+2026-04-05T11:07:34.934795+00:00 ip-172-31-75-209 kernel: ACPI: PCI: Interrupt link LNKB configured for IRQ 10
+2026-04-05T11:07:34.933299+00:00 ip-172-31-75-209 systemd[1]: Mounting boot-efi.mount - /boot/efi...
+2026-04-05T11:07:34.934923+00:00 ip-172-31-75-209 systemd[1]: Mounted boot-efi.mount - /boot/efi.
+2026-04-05T11:07:34.934932+00:00 ip-172-31-75-209 systemd[1]: Reached target local-fs.target - Local File Systems.
+2026-04-05T11:07:34.934937+00:00 ip-172-31-75-209 systemd[1]: Listening on systemd-sysext.socket - System Extension Image Management (Varlink).
+2026-04-05T11:07:34.934942+00:00 ip-172-31-75-209 systemd[1]: Starting apparmor.service - Load AppArmor profiles...
+2026-04-05T11:07:34.934947+00:00 ip-172-31-75-209 systemd[1]: Starting console-setup.service - Set console font and keymap...
+2026-04-05T11:07:34.934951+00:00 ip-172-31-75-209 systemd[1]: Starting finalrd.service - Create final runtime dir for shutdown pivot root...
+2026-04-05T11:07:34.934956+00:00 ip-172-31-75-209 systemd[1]: Starting ldconfig.service - Rebuild Dynamic Linker Cache...
+2026-04-05T11:07:34.934960+00:00 ip-172-31-75-209 systemd[1]: Starting plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data...
+2026-04-05T11:07:34.934965+00:00 ip-172-31-75-209 apparmor.systemd[287]: Restarting AppArmor
+2026-04-05T11:07:34.934972+00:00 ip-172-31-75-209 apparmor.systemd[287]: Reloading AppArmor profiles
+2026-04-05T11:07:34.934978+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-binfmt.service - Set Up Additional Binary Formats...
+2026-04-05T11:07:34.934983+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-tmpfiles-setup.service - Create Volatile Files and Directories...
+2026-04-05T11:07:34.934987+00:00 ip-172-31-75-209 systemd[1]: Starting ufw.service - Uncomplicated firewall...
+2026-04-05T11:07:34.934991+00:00 ip-172-31-75-209 systemd[1]: Finished console-setup.service - Set console font and keymap.
+2026-04-05T11:07:34.934996+00:00 ip-172-31-75-209 systemd[1]: Finished finalrd.service - Create final runtime dir for shutdown pivot root.
+2026-04-05T11:07:34.935000+00:00 ip-172-31-75-209 systemd[1]: Finished plymouth-read-write.service - Tell Plymouth To Write Out Runtime Data.
+2026-04-05T11:07:34.935004+00:00 ip-172-31-75-209 systemd[1]: proc-sys-fs-binfmt_misc.automount: Got automount request for /proc/sys/fs/binfmt_misc, triggered by 298 (systemd-binfmt)
+2026-04-05T11:07:34.935008+00:00 ip-172-31-75-209 systemd[1]: Finished ufw.service - Uncomplicated firewall.
+2026-04-05T11:07:34.935013+00:00 ip-172-31-75-209 systemd[1]: Mounting proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System...
+2026-04-05T11:07:34.935017+00:00 ip-172-31-75-209 systemd[1]: Finished ldconfig.service - Rebuild Dynamic Linker Cache.
+2026-04-05T11:07:34.935021+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-tmpfiles-setup.service - Create Volatile Files and Directories.
+2026-04-05T11:07:34.935026+00:00 ip-172-31-75-209 systemd[1]: Mounted proc-sys-fs-binfmt_misc.mount - Arbitrary Executable File Formats File System.
+2026-04-05T11:07:34.935031+00:00 ip-172-31-75-209 systemd[1]: systemd-firstboot.service - First Boot Wizard was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-04-05T11:07:34.935035+00:00 ip-172-31-75-209 systemd[1]: first-boot-complete.target - First Boot Complete was skipped because of an unmet condition check (ConditionFirstBoot=yes).
+2026-04-05T11:07:34.935041+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-journal-catalog-update.service - Rebuild Journal Catalog...
+2026-04-05T11:07:34.935045+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-machine-id-commit.service - Commit a transient machine-id on disk...
+2026-04-05T11:07:34.935050+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-resolved.service - Network Name Resolution...
+2026-04-05T11:07:34.935054+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-update-utmp.service - Record System Boot/Shutdown in UTMP...
+2026-04-05T11:07:34.935059+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-binfmt.service - Set Up Additional Binary Formats.
+2026-04-05T11:07:34.935064+00:00 ip-172-31-75-209 systemd[1]: etc-machine\x2did.mount: Deactivated successfully.
+2026-04-05T11:07:34.935069+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-machine-id-commit.service - Commit a transient machine-id on disk.
+2026-04-05T11:07:34.935074+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-update-utmp.service - Record System Boot/Shutdown in UTMP.
+2026-04-05T11:07:34.935078+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-journal-catalog-update.service - Rebuild Journal Catalog.
+2026-04-05T11:07:34.935083+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-update-done.service - Update is Completed...
+2026-04-05T11:07:34.935091+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-update-done.service - Update is Completed.
+2026-04-05T11:07:34.935096+00:00 ip-172-31-75-209 systemd-resolved[329]: Positive Trust Anchors:
+2026-04-05T11:07:34.935100+00:00 ip-172-31-75-209 systemd-resolved[329]: . IN DS 20326 8 2 e06d44b80b8f1d39a95c0b0d7c65d08458e880409bbc683457104237c7f8ec8d
+2026-04-05T11:07:34.935105+00:00 ip-172-31-75-209 systemd-resolved[329]: Negative trust anchors: home.arpa 10.in-addr.arpa 16.172.in-addr.arpa 17.172.in-addr.arpa 18.172.in-addr.arpa 19.172.in-addr.arpa 20.172.in-addr.arpa 21.172.in-addr.arpa 22.172.in-addr.arpa 23.172.in-addr.arpa 24.172.in-addr.arpa 25.172.in-addr.arpa 26.172.in-addr.arpa 27.172.in-addr.arpa 28.172.in-addr.arpa 29.172.in-addr.arpa 30.172.in-addr.arpa 31.172.in-addr.arpa 170.0.0.192.in-addr.arpa 171.0.0.192.in-addr.arpa 168.192.in-addr.arpa d.f.ip6.arpa ipv4only.arpa corp home internal intranet lan local private test
+2026-04-05T11:07:34.935111+00:00 ip-172-31-75-209 systemd-resolved[329]: Using system hostname 'ubuntu'.
+2026-04-05T11:07:34.935116+00:00 ip-172-31-75-209 systemd[1]: Started systemd-resolved.service - Network Name Resolution.
+2026-04-05T11:07:34.935123+00:00 ip-172-31-75-209 systemd[1]: Reached target nss-lookup.target - Host and Network Name Lookups.
+2026-04-05T11:07:34.935127+00:00 ip-172-31-75-209 systemd[1]: Finished apparmor.service - Load AppArmor profiles.
+2026-04-05T11:07:34.935132+00:00 ip-172-31-75-209 systemd[1]: Starting snapd.apparmor.service - Load AppArmor profiles managed internally by snapd...
+2026-04-05T11:07:34.935137+00:00 ip-172-31-75-209 systemd[1]: vgauth.service - Authentication service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2026-04-05T11:07:34.935141+00:00 ip-172-31-75-209 systemd[1]: open-vm-tools.service - Service for virtual machines hosted on VMware was skipped because of an unmet condition check (ConditionVirtualization=vmware).
+2026-04-05T11:07:34.935146+00:00 ip-172-31-75-209 systemd[1]: Starting cloud-init-local.service - Cloud-init: Local Stage (pre-network)...
+2026-04-05T11:07:34.935153+00:00 ip-172-31-75-209 snapd-apparmor[431]: main.go:146: Loading profiles [/var/lib/snapd/apparmor/profiles/snap-confine.snapd.25935 /var/lib/snapd/apparmor/profiles/snap-update-ns.amazon-ssm-agent /var/lib/snapd/apparmor/profiles/snap.amazon-ssm-agent.amazon-ssm-agent /var/lib/snapd/apparmor/profiles/snap.amazon-ssm-agent.ssm-cli]
+2026-04-05T11:07:34.935159+00:00 ip-172-31-75-209 systemd[1]: Finished snapd.apparmor.service - Load AppArmor profiles managed internally by snapd.
+2026-04-05T11:07:34.935163+00:00 ip-172-31-75-209 cloud-init[447]: Cloud-init v. 25.3-0ubuntu1~24.04.1 running 'init-local' at Sun, 05 Apr 2026 11:07:28 +0000. Up 4.48 seconds.
+2026-04-05T11:07:34.935169+00:00 ip-172-31-75-209 dhcpcd[450]: dhcpcd-10.0.6 starting
+2026-04-05T11:07:34.935174+00:00 ip-172-31-75-209 dhcpcd[453]: DUID 00:01:00:01:31:64:fe:f0:16:ff:e5:c2:a4:ef
+2026-04-05T11:07:34.935188+00:00 ip-172-31-75-209 dhcpcd[453]: ens5: IAID e5:c2:a4:ef
+2026-04-05T11:07:34.935192+00:00 ip-172-31-75-209 dhcpcd[453]: ens5: soliciting a DHCP lease
+2026-04-05T11:07:34.935196+00:00 ip-172-31-75-209 dhcpcd[453]: ens5: offered 172.31.75.209 from 172.31.64.1
+2026-04-05T11:07:34.935201+00:00 ip-172-31-75-209 dhcpcd[453]: ens5: leased 172.31.75.209 for 3600 seconds
+2026-04-05T11:07:34.935205+00:00 ip-172-31-75-209 dhcpcd[453]: ens5: adding route to 172.31.64.0/20
+2026-04-05T11:07:34.935209+00:00 ip-172-31-75-209 dhcpcd[453]: ens5: adding default route via 172.31.64.1
+2026-04-05T11:07:34.935214+00:00 ip-172-31-75-209 dhcpcd[453]: control command: dhcpcd --dumplease --ipv4only ens5
+2026-04-05T11:07:34.935221+00:00 ip-172-31-75-209 systemd-resolved[329]: System hostname changed to 'ip-172-31-75-209'.
+2026-04-05T11:07:34.935226+00:00 ip-172-31-75-209 systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+2026-04-05T11:07:34.935239+00:00 ip-172-31-75-209 systemd[1]: message repeated 2 times: [ netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).]
+2026-04-05T11:07:34.935245+00:00 ip-172-31-75-209 systemd[1]: Reloading requested from client PID 483 ('systemctl') (unit cloud-init-local.service)...
+2026-04-05T11:07:34.935258+00:00 ip-172-31-75-209 systemd[1]: Reloading...
+2026-04-05T11:07:34.935263+00:00 ip-172-31-75-209 systemd[1]: Reloading finished in 222 ms.
+2026-04-05T11:07:34.935267+00:00 ip-172-31-75-209 systemd[1]: Finished cloud-init-local.service - Cloud-init: Local Stage (pre-network).
+2026-04-05T11:07:34.935272+00:00 ip-172-31-75-209 systemd[1]: Reached target network-pre.target - Preparation for Network.
+2026-04-05T11:07:34.935276+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-networkd.service - Network Configuration...
+2026-04-05T11:07:34.935280+00:00 ip-172-31-75-209 systemd-networkd[518]: lo: Link UP
+2026-04-05T11:07:34.935288+00:00 ip-172-31-75-209 systemd-networkd[518]: lo: Gained carrier
+2026-04-05T11:07:34.935292+00:00 ip-172-31-75-209 systemd-networkd[518]: Enumeration completed
+2026-04-05T11:07:34.935296+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Link UP
+2026-04-05T11:07:34.935301+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Gained carrier
+2026-04-05T11:07:34.935304+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Link DOWN
+2026-04-05T11:07:34.935308+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Lost carrier
+2026-04-05T11:07:34.935313+00:00 ip-172-31-75-209 systemd[1]: Started systemd-networkd.service - Network Configuration.
+2026-04-05T11:07:34.935319+00:00 ip-172-31-75-209 systemd[1]: Reached target network.target - Network.
+2026-04-05T11:07:34.935324+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Configuring with /run/systemd/network/10-netplan-ens5.network.
+2026-04-05T11:07:34.935328+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-networkd-wait-online.service - Wait for Network to be Configured...
+2026-04-05T11:07:34.935332+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Link UP
+2026-04-05T11:07:34.935336+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Gained carrier
+2026-04-05T11:07:34.935341+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: DHCPv4 address 172.31.75.209/20, gateway 172.31.64.1 acquired from 172.31.64.1
+2026-04-05T11:07:34.935348+00:00 ip-172-31-75-209 systemd-networkd[518]: ens5: Gained IPv6LL
+2026-04-05T11:07:34.935352+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-networkd-wait-online.service - Wait for Network to be Configured.
+2026-04-05T11:07:34.935356+00:00 ip-172-31-75-209 systemd[1]: Starting cloud-init.service - Cloud-init: Network Stage...
+2026-04-05T11:07:34.935361+00:00 ip-172-31-75-209 cloud-init[528]: Cloud-init v. 25.3-0ubuntu1~24.04.1 running 'init' at Sun, 05 Apr 2026 11:07:32 +0000. Up 8.50 seconds.
+2026-04-05T11:07:34.935365+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +++++++++++++++++++++++++++++++++++++++Net device info+++++++++++++++++++++++++++++++++++++++
+2026-04-05T11:07:34.935369+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+2026-04-05T11:07:34.935378+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: | Device |  Up  |           Address            |      Mask     | Scope  |     Hw-Address    |
+2026-04-05T11:07:34.935382+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+2026-04-05T11:07:34.935387+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |  ens5  | True |        172.31.75.209         | 255.255.240.0 | global | 16:ff:e5:c2:a4:ef |
+2026-04-05T11:07:34.935392+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |  ens5  | True | fe80::14ff:e5ff:fec2:a4ef/64 |       .       |  link  | 16:ff:e5:c2:a4:ef |
+2026-04-05T11:07:34.935397+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   lo   | True |          127.0.0.1           |   255.0.0.0   |  host  |         .         |
+2026-04-05T11:07:34.935403+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   lo   | True |           ::1/128            |       .       |  host  |         .         |
+2026-04-05T11:07:34.935407+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +--------+------+------------------------------+---------------+--------+-------------------+
+2026-04-05T11:07:34.935412+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: ++++++++++++++++++++++++++++++Route IPv4 info++++++++++++++++++++++++++++++
+2026-04-05T11:07:34.935416+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+2026-04-05T11:07:34.935421+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: | Route | Destination |   Gateway   |     Genmask     | Interface | Flags |
+2026-04-05T11:07:34.935428+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+2026-04-05T11:07:34.935433+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   0   |   0.0.0.0   | 172.31.64.1 |     0.0.0.0     |    ens5   |   UG  |
+2026-04-05T11:07:34.935437+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   1   |  172.31.0.2 | 172.31.64.1 | 255.255.255.255 |    ens5   |  UGH  |
+2026-04-05T11:07:34.935442+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   2   | 172.31.64.0 |   0.0.0.0   |  255.255.240.0  |    ens5   |   U   |
+2026-04-05T11:07:34.935446+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   3   | 172.31.64.1 |   0.0.0.0   | 255.255.255.255 |    ens5   |   UH  |
+2026-04-05T11:07:34.935453+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +-------+-------------+-------------+-----------------+-----------+-------+
+2026-04-05T11:07:34.935457+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +++++++++++++++++++Route IPv6 info+++++++++++++++++++
+2026-04-05T11:07:34.935462+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +-------+-------------+---------+-----------+-------+
+2026-04-05T11:07:34.935467+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: | Route | Destination | Gateway | Interface | Flags |
+2026-04-05T11:07:34.935471+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +-------+-------------+---------+-----------+-------+
+2026-04-05T11:07:34.935477+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   0   |  fe80::/64  |    ::   |    ens5   |   U   |
+2026-04-05T11:07:34.935484+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   2   |    local    |    ::   |    ens5   |   U   |
+2026-04-05T11:07:34.935488+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: |   3   |  multicast  |    ::   |    ens5   |   U   |
+2026-04-05T11:07:34.935493+00:00 ip-172-31-75-209 cloud-init[528]: ci-info: +-------+-------------+---------+-----------+-------+
+2026-04-05T11:07:34.935612+00:00 ip-172-31-75-209 cloud-init[528]: Generating public/private rsa key pair.
+2026-04-05T11:07:34.935637+00:00 ip-172-31-75-209 cloud-init[528]: Your identification has been saved in /etc/ssh/ssh_host_rsa_key
+2026-04-05T11:07:34.939151+00:00 ip-172-31-75-209 kernel: ACPI: PCI: Interrupt link LNKC configured for IRQ 11
+2026-04-05T11:07:34.939672+00:00 ip-172-31-75-209 kernel: ACPI: PCI: Interrupt link LNKD configured for IRQ 11
+2026-04-05T11:07:34.939675+00:00 ip-172-31-75-209 kernel: ACPI: PCI: Interrupt link LNKS configured for IRQ 9
+2026-04-05T11:07:34.939676+00:00 ip-172-31-75-209 kernel: iommu: Default domain type: Translated
+2026-04-05T11:07:34.939681+00:00 ip-172-31-75-209 kernel: iommu: DMA domain TLB invalidation policy: lazy mode
+2026-04-05T11:07:34.939682+00:00 ip-172-31-75-209 kernel: SCSI subsystem initialized
+2026-04-05T11:07:34.939683+00:00 ip-172-31-75-209 kernel: libata version 3.00 loaded.
+2026-04-05T11:07:34.939684+00:00 ip-172-31-75-209 kernel: ACPI: bus type USB registered
+2026-04-05T11:07:34.939684+00:00 ip-172-31-75-209 kernel: usbcore: registered new interface driver usbfs
+2026-04-05T11:07:34.939685+00:00 ip-172-31-75-209 kernel: usbcore: registered new interface driver hub
+2026-04-05T11:07:34.939685+00:00 ip-172-31-75-209 kernel: usbcore: registered new device driver usb
+2026-04-05T11:07:34.939686+00:00 ip-172-31-75-209 kernel: pps_core: LinuxPPS API ver. 1 registered
+2026-04-05T11:07:34.939687+00:00 ip-172-31-75-209 kernel: pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+2026-04-05T11:07:34.939688+00:00 ip-172-31-75-209 kernel: PTP clock support registered
+2026-04-05T11:07:34.939689+00:00 ip-172-31-75-209 kernel: EDAC MC: Ver: 3.0.0
+2026-04-05T11:07:34.939690+00:00 ip-172-31-75-209 kernel: efivars: Registered efivars operations
+2026-04-05T11:07:34.939690+00:00 ip-172-31-75-209 kernel: NetLabel: Initializing
+2026-04-05T11:07:34.939691+00:00 ip-172-31-75-209 kernel: NetLabel:  domain hash size = 128
+2026-04-05T11:07:34.939692+00:00 ip-172-31-75-209 kernel: NetLabel:  protocols = UNLABELED CIPSOv4 CALIPSO
+2026-04-05T11:07:34.939692+00:00 ip-172-31-75-209 kernel: NetLabel:  unlabeled traffic allowed by default
+2026-04-05T11:07:34.939693+00:00 ip-172-31-75-209 kernel: mctp: management component transport protocol core
+2026-04-05T11:07:34.939694+00:00 ip-172-31-75-209 kernel: NET: Registered PF_MCTP protocol family
+2026-04-05T11:07:34.939695+00:00 ip-172-31-75-209 kernel: PCI: Using ACPI for IRQ routing
+2026-04-05T11:07:34.939696+00:00 ip-172-31-75-209 kernel: PCI: pci_cache_line_size set to 64 bytes
+2026-04-05T11:07:34.939697+00:00 ip-172-31-75-209 kernel: e820: reserve RAM buffer [mem 0x3734b000-0x37ffffff]
+2026-04-05T11:07:34.939697+00:00 ip-172-31-75-209 kernel: e820: reserve RAM buffer [mem 0x390ce000-0x3bffffff]
+2026-04-05T11:07:34.939698+00:00 ip-172-31-75-209 kernel: e820: reserve RAM buffer [mem 0x3d37c000-0x3fffffff]
+2026-04-05T11:07:34.939698+00:00 ip-172-31-75-209 kernel: pci 0000:00:03.0: vgaarb: setting as boot VGA device
+2026-04-05T11:07:34.939699+00:00 ip-172-31-75-209 kernel: pci 0000:00:03.0: vgaarb: bridge control possible
+2026-04-05T11:07:34.939700+00:00 ip-172-31-75-209 kernel: pci 0000:00:03.0: vgaarb: VGA device added: decodes=io+mem,owns=io+mem,locks=none
+2026-04-05T11:07:34.939701+00:00 ip-172-31-75-209 kernel: vgaarb: loaded
+2026-04-05T11:07:34.939701+00:00 ip-172-31-75-209 kernel: hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+2026-04-05T11:07:34.939702+00:00 ip-172-31-75-209 kernel: hpet0: 8 comparators, 32-bit 62.500000 MHz counter
+2026-04-05T11:07:34.939703+00:00 ip-172-31-75-209 kernel: clocksource: Switched to clocksource kvm-clock
+2026-04-05T11:07:34.939704+00:00 ip-172-31-75-209 kernel: VFS: Disk quotas dquot_6.6.0
+2026-04-05T11:07:34.939704+00:00 ip-172-31-75-209 kernel: VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+2026-04-05T11:07:34.939705+00:00 ip-172-31-75-209 kernel: AppArmor: AppArmor Filesystem Enabled
+2026-04-05T11:07:34.939705+00:00 ip-172-31-75-209 kernel: pnp: PnP ACPI init
+2026-04-05T11:07:34.939797+00:00 ip-172-31-75-209 kernel: pnp: PnP ACPI: found 5 devices
+2026-04-05T11:07:34.939798+00:00 ip-172-31-75-209 kernel: clocksource: acpi_pm: mask: 0xffffff max_cycles: 0xffffff, max_idle_ns: 2085701024 ns
+2026-04-05T11:07:34.939799+00:00 ip-172-31-75-209 kernel: NET: Registered PF_INET protocol family
+2026-04-05T11:07:34.939800+00:00 ip-172-31-75-209 kernel: IP idents hash table entries: 16384 (order: 5, 131072 bytes, linear)
+2026-04-05T11:07:34.939800+00:00 ip-172-31-75-209 kernel: tcp_listen_portaddr_hash hash table entries: 512 (order: 1, 8192 bytes, linear)
+2026-04-05T11:07:34.939801+00:00 ip-172-31-75-209 kernel: Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+2026-04-05T11:07:34.939801+00:00 ip-172-31-75-209 kernel: TCP established hash table entries: 8192 (order: 4, 65536 bytes, linear)
+2026-04-05T11:07:34.939802+00:00 ip-172-31-75-209 kernel: TCP bind hash table entries: 8192 (order: 6, 262144 bytes, linear)
+2026-04-05T11:07:34.939827+00:00 ip-172-31-75-209 kernel: TCP: Hash tables configured (established 8192 bind 8192)
+2026-04-05T11:07:34.939828+00:00 ip-172-31-75-209 kernel: MPTCP token hash table entries: 1024 (order: 3, 24576 bytes, linear)
+2026-04-05T11:07:34.939828+00:00 ip-172-31-75-209 kernel: UDP hash table entries: 512 (order: 3, 32768 bytes, linear)
+2026-04-05T11:07:34.939829+00:00 ip-172-31-75-209 kernel: UDP-Lite hash table entries: 512 (order: 3, 32768 bytes, linear)
+2026-04-05T11:07:34.939830+00:00 ip-172-31-75-209 kernel: NET: Registered PF_UNIX/PF_LOCAL protocol family
+2026-04-05T11:07:34.939830+00:00 ip-172-31-75-209 kernel: NET: Registered PF_XDP protocol family
+2026-04-05T11:07:34.939831+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7 window]
+2026-04-05T11:07:34.939831+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: resource 5 [io  0x0d00-0xffff window]
+2026-04-05T11:07:34.939832+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff window]
+2026-04-05T11:07:34.939832+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: resource 7 [mem 0x80000000-0xfebfffff window]
+2026-04-05T11:07:34.939833+00:00 ip-172-31-75-209 kernel: pci_bus 0000:00: resource 8 [mem 0x100000000-0x2000ffffffff window]
+2026-04-05T11:07:34.939834+00:00 ip-172-31-75-209 kernel: pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+2026-04-05T11:07:34.939834+00:00 ip-172-31-75-209 kernel: PCI: CLS 0 bytes, default 64
+2026-04-05T11:07:34.939835+00:00 ip-172-31-75-209 kernel: clocksource: tsc: mask: 0xffffffffffffffff max_cycles: 0x240937b9988, max_idle_ns: 440795218083 ns
+2026-04-05T11:07:34.939836+00:00 ip-172-31-75-209 kernel: Trying to unpack rootfs image as initramfs...
+2026-04-05T11:07:34.939836+00:00 ip-172-31-75-209 kernel: clocksource: Switched to clocksource tsc
+2026-04-05T11:07:34.939837+00:00 ip-172-31-75-209 kernel: Freeing initrd memory: 14600K
+2026-04-05T11:07:34.939837+00:00 ip-172-31-75-209 kernel: Initialise system trusted keyrings
+2026-04-05T11:07:34.939838+00:00 ip-172-31-75-209 kernel: Key type blacklist registered
+2026-04-05T11:07:34.939839+00:00 ip-172-31-75-209 kernel: workingset: timestamp_bits=36 max_order=18 bucket_order=0
+2026-04-05T11:07:34.939839+00:00 ip-172-31-75-209 kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+2026-04-05T11:07:34.939840+00:00 ip-172-31-75-209 kernel: fuse: init (API version 7.44)
+2026-04-05T11:07:34.939840+00:00 ip-172-31-75-209 kernel: integrity: Platform Keyring initialized
+2026-04-05T11:07:34.939841+00:00 ip-172-31-75-209 kernel: integrity: Machine keyring initialized
+2026-04-05T11:07:34.939842+00:00 ip-172-31-75-209 kernel: Key type asymmetric registered
+2026-04-05T11:07:34.939842+00:00 ip-172-31-75-209 kernel: Asymmetric key parser 'x509' registered
+2026-04-05T11:07:34.939843+00:00 ip-172-31-75-209 kernel: Block layer SCSI generic (bsg) driver version 0.4 loaded (major 242)
+2026-04-05T11:07:34.939843+00:00 ip-172-31-75-209 kernel: io scheduler mq-deadline registered
+2026-04-05T11:07:34.939844+00:00 ip-172-31-75-209 kernel: ledtrig-cpu: registered to indicate activity on CPUs
+2026-04-05T11:07:34.939844+00:00 ip-172-31-75-209 kernel: input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input0
+2026-04-05T11:07:34.939845+00:00 ip-172-31-75-209 kernel: ACPI: button: Power Button [PWRF]
+2026-04-05T11:07:34.939845+00:00 ip-172-31-75-209 kernel: input: Sleep Button as /devices/LNXSYSTM:00/LNXSLPBN:00/input/input1
+2026-04-05T11:07:34.939846+00:00 ip-172-31-75-209 kernel: ACPI: button: Sleep Button [SLPF]
+2026-04-05T11:07:34.939847+00:00 ip-172-31-75-209 kernel: Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+2026-04-05T11:07:34.939847+00:00 ip-172-31-75-209 kernel: 00:04: ttyS0 at I/O 0x3f8 (irq = 4, base_baud = 115200) is a 16550A
+2026-04-05T11:07:34.939848+00:00 ip-172-31-75-209 kernel: Linux agpgart interface v0.103
+2026-04-05T11:07:34.939848+00:00 ip-172-31-75-209 kernel: loop: module loaded
+2026-04-05T11:07:34.939849+00:00 ip-172-31-75-209 kernel: Key type psk registered
+2026-04-05T11:07:34.939850+00:00 ip-172-31-75-209 kernel: ACPI: bus type drm_connector registered
+2026-04-05T11:07:34.939850+00:00 ip-172-31-75-209 kernel: nvme nvme0: pci function 0000:00:04.0
+2026-04-05T11:07:34.939851+00:00 ip-172-31-75-209 kernel: ACPI: \_SB_.LNKD: Enabled at IRQ 11
+2026-04-05T11:07:34.939851+00:00 ip-172-31-75-209 kernel: tun: Universal TUN/TAP device driver, 1.6
+2026-04-05T11:07:34.939852+00:00 ip-172-31-75-209 kernel: PPP generic driver version 2.4.2
+2026-04-05T11:07:34.939852+00:00 ip-172-31-75-209 kernel: i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+2026-04-05T11:07:34.939853+00:00 ip-172-31-75-209 kernel: i8042: Warning: Keylock active
+2026-04-05T11:07:34.939854+00:00 ip-172-31-75-209 kernel: serio: i8042 KBD port at 0x60,0x64 irq 1
+2026-04-05T11:07:34.939854+00:00 ip-172-31-75-209 kernel: serio: i8042 AUX port at 0x60,0x64 irq 12
+2026-04-05T11:07:34.939855+00:00 ip-172-31-75-209 kernel: mousedev: PS/2 mouse device common for all mice
+2026-04-05T11:07:34.939855+00:00 ip-172-31-75-209 kernel: nvme nvme0: 2/0/0 default/read/poll queues
+2026-04-05T11:07:34.939856+00:00 ip-172-31-75-209 kernel: rtc_cmos 00:00: RTC can wake from S4
+2026-04-05T11:07:34.939856+00:00 ip-172-31-75-209 kernel: rtc_cmos 00:00: registered as rtc0
+2026-04-05T11:07:34.939857+00:00 ip-172-31-75-209 kernel: rtc_cmos 00:00: setting system clock to 2026-04-05T11:07:24 UTC (1775387244)
+2026-04-05T11:07:34.939858+00:00 ip-172-31-75-209 kernel: rtc_cmos 00:00: alarms up to one day, 114 bytes nvram
+2026-04-05T11:07:34.939858+00:00 ip-172-31-75-209 kernel: i2c_dev: i2c /dev entries driver
+2026-04-05T11:07:34.939859+00:00 ip-172-31-75-209 kernel: device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+2026-04-05T11:07:34.939860+00:00 ip-172-31-75-209 kernel: device-mapper: uevent: version 1.0.3
+2026-04-05T11:07:34.939860+00:00 ip-172-31-75-209 kernel: device-mapper: ioctl: 4.50.0-ioctl (2025-04-28) initialised: dm-devel@lists.linux.dev
+2026-04-05T11:07:34.939861+00:00 ip-172-31-75-209 kernel: intel_pstate: CPU model not supported
+2026-04-05T11:07:34.939862+00:00 ip-172-31-75-209 kernel: simple-framebuffer simple-framebuffer.0: [drm] Registered 1 planes with drm panic
+2026-04-05T11:07:34.939862+00:00 ip-172-31-75-209 kernel: [drm] Initialized simpledrm 1.0.0 for simple-framebuffer.0 on minor 0
+2026-04-05T11:07:34.939863+00:00 ip-172-31-75-209 kernel:  nvme0n1: p1 p14 p15 p16
+2026-04-05T11:07:34.939864+00:00 ip-172-31-75-209 kernel: Console: switching to colour frame buffer device 100x37
+2026-04-05T11:07:34.939865+00:00 ip-172-31-75-209 kernel: simple-framebuffer simple-framebuffer.0: [drm] fb0: simpledrmdrmfb frame buffer device
+2026-04-05T11:07:34.939865+00:00 ip-172-31-75-209 kernel: drop_monitor: Initializing network drop monitor service
+2026-04-05T11:07:34.939866+00:00 ip-172-31-75-209 kernel: NET: Registered PF_INET6 protocol family
+2026-04-05T11:07:34.939866+00:00 ip-172-31-75-209 kernel: Segment Routing with IPv6
+2026-04-05T11:07:34.939867+00:00 ip-172-31-75-209 kernel: In-situ OAM (IOAM) with IPv6
+2026-04-05T11:07:34.939868+00:00 ip-172-31-75-209 kernel: NET: Registered PF_PACKET protocol family
+2026-04-05T11:07:34.939869+00:00 ip-172-31-75-209 kernel: Key type dns_resolver registered
+2026-04-05T11:07:34.939869+00:00 ip-172-31-75-209 kernel: resctrl: No MBM correction factor available
+2026-04-05T11:07:34.939870+00:00 ip-172-31-75-209 kernel: IPI shorthand broadcast: enabled
+2026-04-05T11:07:34.939870+00:00 ip-172-31-75-209 kernel: sched_clock: Marking stable (477001980, 218080878)->(874099489, -179016631)
+2026-04-05T11:07:34.939871+00:00 ip-172-31-75-209 kernel: registered taskstats version 1
+2026-04-05T11:07:34.939872+00:00 ip-172-31-75-209 kernel: Loading compiled-in X.509 certificates
+2026-04-05T11:07:34.939872+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: e72f1662c5a8f3dcea42b65b483c3029bfea2334'
+2026-04-05T11:07:34.939872+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing 2025 Kmod: d541cef61dc7e793b7eb7e899970a2eef0b5dc8c'
+2026-04-05T11:07:34.939874+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Live Patch Signing: 14df34d1a87cf37625abec039ef2bf521249b969'
+2026-04-05T11:07:34.939874+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Kernel Module Signing: 88f752e560a1e0737e31163a466ad7b70a850c19'
+2026-04-05T11:07:34.939875+00:00 ip-172-31-75-209 kernel: blacklist: Loading compiled-in revocation X.509 certificates
+2026-04-05T11:07:34.939875+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing: 61482aa2830d0ab2ad5af10b7250da9033ddcef0'
+2026-04-05T11:07:34.939876+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2017): 242ade75ac4a15e50d50c84b0d45ff3eae707a03'
+2026-04-05T11:07:34.939876+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (ESM 2018): 365188c1d374d6b07c3c8f240f8ef722433d6a8b'
+2026-04-05T11:07:34.939877+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2019): c0746fd6c5da3ae827864651ad66ae47fe24b3e8'
+2026-04-05T11:07:34.939878+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v1): a8d54bbb3825cfb94fa13c9f8a594a195c107b8d'
+2026-04-05T11:07:34.939879+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v2): 4cf046892d6fd3c9a5b03f98d845f90851dc6a8c'
+2026-04-05T11:07:34.939879+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (2021 v3): 100437bb6de6e469b581e61cd66bce3ef4ed53af'
+2026-04-05T11:07:34.939880+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Canonical Ltd. Secure Boot Signing (Ubuntu Core 2019): c1d57b8f6b743f23ee41f4f7ee292f06eecadfb9'
+2026-04-05T11:07:34.939881+00:00 ip-172-31-75-209 kernel: Demotion targets for Node 0: null
+2026-04-05T11:07:34.939881+00:00 ip-172-31-75-209 kernel: Key type .fscrypt registered
+2026-04-05T11:07:34.939882+00:00 ip-172-31-75-209 kernel: Key type fscrypt-provisioning registered
+2026-04-05T11:07:34.939882+00:00 ip-172-31-75-209 kernel: Key type big_key registered
+2026-04-05T11:07:34.939883+00:00 ip-172-31-75-209 kernel: Key type encrypted registered
+2026-04-05T11:07:34.939884+00:00 ip-172-31-75-209 kernel: AppArmor: AppArmor sha256 policy hashing enabled
+2026-04-05T11:07:34.939884+00:00 ip-172-31-75-209 kernel: ima: No TPM chip found, activating TPM-bypass!
+2026-04-05T11:07:34.939885+00:00 ip-172-31-75-209 kernel: Loading compiled-in module X.509 certificates
+2026-04-05T11:07:34.939885+00:00 ip-172-31-75-209 kernel: Loaded X.509 cert 'Build time autogenerated kernel key: e72f1662c5a8f3dcea42b65b483c3029bfea2334'
+2026-04-05T11:07:34.939886+00:00 ip-172-31-75-209 kernel: ima: Allocated hash algorithm: sha256
+2026-04-05T11:07:34.939887+00:00 ip-172-31-75-209 kernel: ima: No architecture policies found
+2026-04-05T11:07:34.939887+00:00 ip-172-31-75-209 kernel: evm: Initialising EVM extended attributes:
+2026-04-05T11:07:34.939888+00:00 ip-172-31-75-209 kernel: evm: security.selinux
+2026-04-05T11:07:34.939888+00:00 ip-172-31-75-209 kernel: evm: security.SMACK64
+2026-04-05T11:07:34.939889+00:00 ip-172-31-75-209 kernel: evm: security.SMACK64EXEC
+2026-04-05T11:07:34.939889+00:00 ip-172-31-75-209 kernel: evm: security.SMACK64TRANSMUTE
+2026-04-05T11:07:34.939960+00:00 ip-172-31-75-209 kernel: evm: security.SMACK64MMAP
+2026-04-05T11:07:34.939961+00:00 ip-172-31-75-209 kernel: evm: security.apparmor
+2026-04-05T11:07:34.939961+00:00 ip-172-31-75-209 kernel: evm: security.ima
+2026-04-05T11:07:34.939962+00:00 ip-172-31-75-209 kernel: evm: security.capability
+2026-04-05T11:07:34.939962+00:00 ip-172-31-75-209 kernel: evm: HMAC attrs: 0x1
+2026-04-05T11:07:34.939963+00:00 ip-172-31-75-209 kernel: PM:   Magic number: 6:592:124
+2026-04-05T11:07:34.939964+00:00 ip-172-31-75-209 kernel: RAS: Correctable Errors collector initialized.
+2026-04-05T11:07:34.939965+00:00 ip-172-31-75-209 kernel: clk: Disabling unused clocks
+2026-04-05T11:07:34.939965+00:00 ip-172-31-75-209 kernel: PM: genpd: Disabling unused power domains
+2026-04-05T11:07:34.939966+00:00 ip-172-31-75-209 kernel: check access for rdinit=/init failed: -2, ignoring
+2026-04-05T11:07:34.939966+00:00 ip-172-31-75-209 kernel: input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input2
+2026-04-05T11:07:34.939967+00:00 ip-172-31-75-209 kernel: md: Waiting for all devices to be available before autodetect
+2026-04-05T11:07:34.939968+00:00 ip-172-31-75-209 kernel: md: If you don't use raid, use raid=noautodetect
+2026-04-05T11:07:34.939968+00:00 ip-172-31-75-209 kernel: md: Autodetecting RAID arrays.
+2026-04-05T11:07:34.939969+00:00 ip-172-31-75-209 kernel: md: autorun ...
+2026-04-05T11:07:34.939970+00:00 ip-172-31-75-209 kernel: md: ... autorun DONE.
+2026-04-05T11:07:34.939970+00:00 ip-172-31-75-209 kernel: EXT4-fs (nvme0n1p1): mounted filesystem 0df68d9a-e70c-413e-9a10-736ae3f00a7a ro with ordered data mode. Quota mode: none.
+2026-04-05T11:07:34.939971+00:00 ip-172-31-75-209 kernel: VFS: Mounted root (ext4 filesystem) readonly on device 259:1.
+2026-04-05T11:07:34.939971+00:00 ip-172-31-75-209 kernel: devtmpfs: mounted
+2026-04-05T11:07:34.939972+00:00 ip-172-31-75-209 kernel: Freeing unused decrypted memory: 2028K
+2026-04-05T11:07:34.939973+00:00 ip-172-31-75-209 kernel: Freeing unused kernel image (initmem) memory: 5384K
+2026-04-05T11:07:34.939973+00:00 ip-172-31-75-209 kernel: Write protecting the kernel read-only data: 38912k
+2026-04-05T11:07:34.939974+00:00 ip-172-31-75-209 kernel: Freeing unused kernel image (text/rodata gap) memory: 484K
+2026-04-05T11:07:34.939974+00:00 ip-172-31-75-209 kernel: Freeing unused kernel image (rodata/data gap) memory: 900K
+2026-04-05T11:07:34.939975+00:00 ip-172-31-75-209 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2026-04-05T11:07:34.939976+00:00 ip-172-31-75-209 kernel: x86/mm: Checking user space page tables
+2026-04-05T11:07:34.939976+00:00 ip-172-31-75-209 kernel: x86/mm: Checked W+X mappings: passed, no W+X pages found.
+2026-04-05T11:07:34.939977+00:00 ip-172-31-75-209 kernel: Run /sbin/init as init process
+2026-04-05T11:07:34.939978+00:00 ip-172-31-75-209 kernel:   with arguments:
+2026-04-05T11:07:34.939978+00:00 ip-172-31-75-209 kernel:     /sbin/init
+2026-04-05T11:07:34.939979+00:00 ip-172-31-75-209 kernel:   with environment:
+2026-04-05T11:07:34.939980+00:00 ip-172-31-75-209 kernel:     HOME=/
+2026-04-05T11:07:34.939980+00:00 ip-172-31-75-209 kernel:     TERM=linux
+2026-04-05T11:07:34.939981+00:00 ip-172-31-75-209 kernel: systemd[1]: Inserted module 'autofs4'
+2026-04-05T11:07:34.939982+00:00 ip-172-31-75-209 kernel: systemd[1]: systemd 255.4-1ubuntu8.12 running in system mode (+PAM +AUDIT +SELINUX +APPARMOR +IMA +SMACK +SECCOMP +GCRYPT -GNUTLS +OPENSSL +ACL +BLKID +CURL +ELFUTILS +FIDO2 +IDN2 -IDN +IPTC +KMOD +LIBCRYPTSETUP +LIBFDISK +PCRE2 -PWQUALITY +P11KIT +QRENCODE +TPM2 +BZIP2 +LZ4 +XZ +ZLIB +ZSTD -BPF_FRAMEWORK -XKBCOMMON +UTMP +SYSVINIT default-hierarchy=unified)
+2026-04-05T11:07:34.939983+00:00 ip-172-31-75-209 kernel: systemd[1]: Detected virtualization amazon.
+2026-04-05T11:07:34.939983+00:00 ip-172-31-75-209 kernel: systemd[1]: Detected architecture x86-64.
+2026-04-05T11:07:34.939984+00:00 ip-172-31-75-209 kernel: systemd[1]: Hostname set to <ubuntu>.
+2026-04-05T11:07:34.939984+00:00 ip-172-31-75-209 kernel: systemd[1]: Initializing machine ID from VM UUID.
+2026-04-05T11:07:34.939985+00:00 ip-172-31-75-209 kernel: systemd[1]: Installed transient /etc/machine-id file.
+2026-04-05T11:07:34.939986+00:00 ip-172-31-75-209 kernel: systemd[1]: Queued start job for default target graphical.target.
+2026-04-05T11:07:34.939986+00:00 ip-172-31-75-209 kernel: systemd[1]: Created slice system-modprobe.slice - Slice /system/modprobe.
+2026-04-05T11:07:34.939987+00:00 ip-172-31-75-209 kernel: systemd[1]: Created slice system-serial\x2dgetty.slice - Slice /system/serial-getty.
+2026-04-05T11:07:34.939987+00:00 ip-172-31-75-209 kernel: systemd[1]: Created slice system-systemd\x2dfsck.slice - Slice /system/systemd-fsck.
+2026-04-05T11:07:34.939988+00:00 ip-172-31-75-209 kernel: systemd[1]: Created slice user.slice - User and Session Slice.
+2026-04-05T11:07:34.939988+00:00 ip-172-31-75-209 kernel: systemd[1]: Started systemd-ask-password-wall.path - Forward Password Requests to Wall Directory Watch.
+2026-04-05T11:07:34.939989+00:00 ip-172-31-75-209 kernel: systemd[1]: Set up automount proc-sys-fs-binfmt_misc.automount - Arbitrary Executable File Formats File System Automount Point.
+2026-04-05T11:07:34.939990+00:00 ip-172-31-75-209 kernel: systemd[1]: Expecting device dev-disk-by\x2dlabel-BOOT.device - /dev/disk/by-label/BOOT...
+2026-04-05T11:07:34.939990+00:00 ip-172-31-75-209 kernel: systemd[1]: Expecting device dev-disk-by\x2dlabel-UEFI.device - /dev/disk/by-label/UEFI...
+2026-04-05T11:07:34.939991+00:00 ip-172-31-75-209 kernel: systemd[1]: Expecting device dev-ttyS0.device - /dev/ttyS0...
+2026-04-05T11:07:34.939992+00:00 ip-172-31-75-209 kernel: systemd[1]: Reached target integritysetup.target - Local Integrity Protected Volumes.
+2026-04-05T11:07:34.939993+00:00 ip-172-31-75-209 kernel: systemd[1]: Reached target slices.target - Slice Units.
+2026-04-05T11:07:34.939994+00:00 ip-172-31-75-209 kernel: systemd[1]: Reached target snapd.mounts-pre.target - Mounting snaps.
+2026-04-05T11:07:34.939994+00:00 ip-172-31-75-209 kernel: systemd[1]: Reached target swap.target - Swaps.
+2026-04-05T11:07:34.939995+00:00 ip-172-31-75-209 kernel: systemd[1]: Reached target time-set.target - System Time Set.
+2026-04-05T11:07:34.939996+00:00 ip-172-31-75-209 kernel: systemd[1]: Reached target veritysetup.target - Local Verity Protected Volumes.
+2026-04-05T11:07:34.940006+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on dm-event.socket - Device-mapper event daemon FIFOs.
+2026-04-05T11:07:34.940007+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on lvm2-lvmpolld.socket - LVM2 poll daemon socket.
+2026-04-05T11:07:34.940008+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on multipathd.socket - multipathd control socket.
+2026-04-05T11:07:34.940009+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on syslog.socket - Syslog Socket.
+2026-04-05T11:07:34.940009+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on systemd-fsckd.socket - fsck to fsckd communication Socket.
+2026-04-05T11:07:34.940010+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on systemd-initctl.socket - initctl Compatibility Named Pipe.
+2026-04-05T11:07:34.940011+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on systemd-journald-dev-log.socket - Journal Socket (/dev/log).
+2026-04-05T11:07:34.940016+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on systemd-journald.socket - Journal Socket.
+2026-04-05T11:07:34.940017+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on systemd-networkd.socket - Network Service Netlink Socket.
+2026-04-05T11:07:34.940018+00:00 ip-172-31-75-209 kernel: systemd[1]: systemd-pcrextend.socket - TPM2 PCR Extension (Varlink) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-04-05T11:07:34.940019+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on systemd-udevd-control.socket - udev Control Socket.
+2026-04-05T11:07:34.940020+00:00 ip-172-31-75-209 kernel: systemd[1]: Listening on systemd-udevd-kernel.socket - udev Kernel Socket.
+2026-04-05T11:07:34.940021+00:00 ip-172-31-75-209 kernel: systemd[1]: Mounting dev-hugepages.mount - Huge Pages File System...
+2026-04-05T11:07:34.940026+00:00 ip-172-31-75-209 kernel: systemd[1]: Mounting dev-mqueue.mount - POSIX Message Queue File System...
+2026-04-05T11:07:34.940027+00:00 ip-172-31-75-209 kernel: systemd[1]: Mounting sys-kernel-debug.mount - Kernel Debug File System...
+2026-04-05T11:07:34.940027+00:00 ip-172-31-75-209 kernel: systemd[1]: Mounting sys-kernel-tracing.mount - Kernel Trace File System...
+2026-04-05T11:07:34.940028+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting systemd-journald.service - Journal Service...
+2026-04-05T11:07:34.940029+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting keyboard-setup.service - Set the console keyboard layout...
+2026-04-05T11:07:34.940030+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting kmod-static-nodes.service - Create List of Static Device Nodes...
+2026-04-05T11:07:34.940030+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting lvm2-monitor.service - Monitoring of LVM2 mirrors, snapshots etc. using dmeventd or progress polling...
+2026-04-05T11:07:34.940036+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting modprobe@configfs.service - Load Kernel Module configfs...
+2026-04-05T11:07:34.940037+00:00 ip-172-31-75-209 kernel: systemd-journald[121]: Collecting audit messages is disabled.
+2026-04-05T11:07:34.940037+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting modprobe@dm_mod.service - Load Kernel Module dm_mod...
+2026-04-05T11:07:34.940038+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting modprobe@drm.service - Load Kernel Module drm...
+2026-04-05T11:07:34.940039+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting modprobe@efi_pstore.service - Load Kernel Module efi_pstore...
+2026-04-05T11:07:34.940039+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting modprobe@fuse.service - Load Kernel Module fuse...
+2026-04-05T11:07:34.940045+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting modprobe@loop.service - Load Kernel Module loop...
+2026-04-05T11:07:34.940046+00:00 ip-172-31-75-209 kernel: systemd[1]: netplan-ovs-cleanup.service - OpenVSwitch configuration for cleanup was skipped because of an unmet condition check (ConditionFileIsExecutable=/usr/bin/ovs-vsctl).
+2026-04-05T11:07:34.940047+00:00 ip-172-31-75-209 kernel: pstore: Using crash dump compression: deflate
+2026-04-05T11:07:34.940048+00:00 ip-172-31-75-209 kernel: pstore: Registered efi_pstore as persistent store backend
+2026-04-05T11:07:34.940048+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting systemd-fsck-root.service - File System Check on Root Device...
+2026-04-05T11:07:34.940049+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting systemd-modules-load.service - Load Kernel Modules...
+2026-04-05T11:07:34.940054+00:00 ip-172-31-75-209 kernel: systemd[1]: systemd-pcrmachine.service - TPM2 PCR Machine ID Measurement was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-04-05T11:07:34.940055+00:00 ip-172-31-75-209 kernel: systemd[1]: systemd-tpm2-setup-early.service - TPM2 SRK Setup (Early) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-04-05T11:07:34.940056+00:00 ip-172-31-75-209 kernel: systemd[1]: Starting systemd-udev-trigger.service - Coldplug All udev Devices...
+2026-04-05T11:07:34.940057+00:00 ip-172-31-75-209 kernel: systemd[1]: Started systemd-journald.service - Journal Service.
+2026-04-05T11:07:34.940058+00:00 ip-172-31-75-209 kernel: EXT4-fs (nvme0n1p1): re-mounted 0df68d9a-e70c-413e-9a10-736ae3f00a7a r/w.
+2026-04-05T11:07:34.940078+00:00 ip-172-31-75-209 kernel: systemd-journald[121]: Received client request to flush runtime journal.
+2026-04-05T11:07:34.940079+00:00 ip-172-31-75-209 kernel: loop0: detected capacity change from 0 to 56864
+2026-04-05T11:07:34.940084+00:00 ip-172-31-75-209 kernel: loop1: detected capacity change from 0 to 98480
+2026-04-05T11:07:34.940085+00:00 ip-172-31-75-209 kernel: loop2: detected capacity change from 0 to 151456
+2026-04-05T11:07:34.940086+00:00 ip-172-31-75-209 kernel: nvme nvme0: using unchecked data buffer
+2026-04-05T11:07:34.940087+00:00 ip-172-31-75-209 kernel: parport_pc 00:03: reported by Plug and Play ACPI
+2026-04-05T11:07:34.940087+00:00 ip-172-31-75-209 kernel: ena 0000:00:05.0: ENA device version: 0.10
+2026-04-05T11:07:34.940088+00:00 ip-172-31-75-209 kernel: ena 0000:00:05.0: ENA controller version: 0.0.1 implementation version 1
+2026-04-05T11:07:34.940098+00:00 ip-172-31-75-209 kernel: ena 0000:00:05.0: LLQ is not supported Fallback to host mode policy.
+2026-04-05T11:07:34.940099+00:00 ip-172-31-75-209 kernel: ena 0000:00:05.0: Elastic Network Adapter (ENA) found at mem 80400000, mac addr 16:ff:e5:c2:a4:ef
+2026-04-05T11:07:34.940099+00:00 ip-172-31-75-209 kernel: ena 0000:00:05.0 ens5: renamed from eth0
+2026-04-05T11:07:34.940100+00:00 ip-172-31-75-209 kernel: ppdev: user-space parallel port driver
+2026-04-05T11:07:34.940101+00:00 ip-172-31-75-209 kernel: EXT4-fs (nvme0n1p16): mounted filesystem 1bbab773-c98f-47ee-aa18-6277cc35d82f r/w with ordered data mode. Quota mode: none.
+2026-04-05T11:07:34.940102+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.337:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="1password" pid=308 comm="apparmor_parser"
+2026-04-05T11:07:34.940107+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.339:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="Discord" pid=309 comm="apparmor_parser"
+2026-04-05T11:07:34.940107+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.342:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name=4D6F6E676F444220436F6D70617373 pid=314 comm="apparmor_parser"
+2026-04-05T11:07:34.940108+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.347:5): apparmor="STATUS" operation="profile_load" profile="unconfined" name="QtWebEngineProcess" pid=315 comm="apparmor_parser"
+2026-04-05T11:07:34.940109+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.356:6): apparmor="STATUS" operation="profile_load" profile="unconfined" name="balena-etcher" pid=316 comm="apparmor_parser"
+2026-04-05T11:07:34.940109+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.357:7): apparmor="STATUS" operation="profile_load" profile="unconfined" name="brave" pid=317 comm="apparmor_parser"
+2026-04-05T11:07:34.940114+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.362:8): apparmor="STATUS" operation="profile_load" profile="unconfined" name="buildah" pid=321 comm="apparmor_parser"
+2026-04-05T11:07:34.940115+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.364:9): apparmor="STATUS" operation="profile_load" profile="unconfined" name="busybox" pid=322 comm="apparmor_parser"
+2026-04-05T11:07:34.940116+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387247.371:10): apparmor="STATUS" operation="profile_load" profile="unconfined" name="cam" pid=324 comm="apparmor_parser"
+2026-04-05T11:07:34.940117+00:00 ip-172-31-75-209 kernel: input: ImPS/2 Generic Wheel Mouse as /devices/platform/i8042/serio1/input/input4
+2026-04-05T11:07:34.940117+00:00 ip-172-31-75-209 kernel: 8021q: 802.1Q VLAN Support v1.8
+2026-04-05T11:07:34.940118+00:00 ip-172-31-75-209 kernel: kauditd_printk_skb: 116 callbacks suppressed
+2026-04-05T11:07:34.940123+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387254.524:127): apparmor="STATUS" operation="profile_replace" info="same as current profile, skipping" profile="unconfined" name="rsyslogd" pid=645 comm="apparmor_parser"
+2026-04-05T11:07:34.935668+00:00 ip-172-31-75-209 cloud-init[528]: Your public key has been saved in /etc/ssh/ssh_host_rsa_key.pub
+2026-04-05T11:07:34.940866+00:00 ip-172-31-75-209 cloud-init[528]: The key fingerprint is:
+2026-04-05T11:07:34.940880+00:00 ip-172-31-75-209 cloud-init[528]: SHA256:BAbi9qrq85THsubDJF0yeY4eSTdaNjYni0aDkVGJInY root@ip-172-31-75-209
+2026-04-05T11:07:34.940886+00:00 ip-172-31-75-209 cloud-init[528]: The key's randomart image is:
+2026-04-05T11:07:34.940890+00:00 ip-172-31-75-209 cloud-init[528]: +---[RSA 3072]----+
+2026-04-05T11:07:34.940895+00:00 ip-172-31-75-209 cloud-init[528]: | .*.o.o          |
+2026-04-05T11:07:34.940900+00:00 ip-172-31-75-209 cloud-init[528]: |o* E . .         |
+2026-04-05T11:07:34.940905+00:00 ip-172-31-75-209 cloud-init[528]: |+ * .   .        |
+2026-04-05T11:07:34.940909+00:00 ip-172-31-75-209 cloud-init[528]: | o O % o         |
+2026-04-05T11:07:34.940915+00:00 ip-172-31-75-209 cloud-init[528]: |  + ^ B S        |
+2026-04-05T11:07:34.940920+00:00 ip-172-31-75-209 cloud-init[528]: | . @oo           |
+2026-04-05T11:07:34.940925+00:00 ip-172-31-75-209 cloud-init[528]: |  B+.o           |
+2026-04-05T11:07:34.940929+00:00 ip-172-31-75-209 cloud-init[528]: | o.=+            |
+2026-04-05T11:07:34.940933+00:00 ip-172-31-75-209 cloud-init[528]: |=.=+.            |
+2026-04-05T11:07:34.940938+00:00 ip-172-31-75-209 cloud-init[528]: +----[SHA256]-----+
+2026-04-05T11:07:34.940943+00:00 ip-172-31-75-209 cloud-init[528]: Generating public/private ecdsa key pair.
+2026-04-05T11:07:34.940947+00:00 ip-172-31-75-209 cloud-init[528]: Your identification has been saved in /etc/ssh/ssh_host_ecdsa_key
+2026-04-05T11:07:34.940951+00:00 ip-172-31-75-209 cloud-init[528]: Your public key has been saved in /etc/ssh/ssh_host_ecdsa_key.pub
+2026-04-05T11:07:34.940956+00:00 ip-172-31-75-209 cloud-init[528]: The key fingerprint is:
+2026-04-05T11:07:34.940960+00:00 ip-172-31-75-209 cloud-init[528]: SHA256:MB503rV/Jr9WFm66sFv8cXscDcZ6tGWqkmhDLiZmhUk root@ip-172-31-75-209
+2026-04-05T11:07:34.940965+00:00 ip-172-31-75-209 cloud-init[528]: The key's randomart image is:
+2026-04-05T11:07:34.940970+00:00 ip-172-31-75-209 cloud-init[528]: +---[ECDSA 256]---+
+2026-04-05T11:07:34.940973+00:00 ip-172-31-75-209 cloud-init[528]: |      . .   .    |
+2026-04-05T11:07:34.940978+00:00 ip-172-31-75-209 cloud-init[528]: |     . o . . .   |
+2026-04-05T11:07:34.940982+00:00 ip-172-31-75-209 cloud-init[528]: |      + . . ..   |
+2026-04-05T11:07:34.940986+00:00 ip-172-31-75-209 cloud-init[528]: |    E. +     .=.o|
+2026-04-05T11:07:34.940995+00:00 ip-172-31-75-209 cloud-init[528]: |   . o. S    ++*=|
+2026-04-05T11:07:34.940999+00:00 ip-172-31-75-209 cloud-init[528]: |    o . .   o +O+|
+2026-04-05T11:07:34.941004+00:00 ip-172-31-75-209 cloud-init[528]: |     . o . o =o+=|
+2026-04-05T11:07:34.941008+00:00 ip-172-31-75-209 cloud-init[528]: |    + o = o =...B|
+2026-04-05T11:07:34.941013+00:00 ip-172-31-75-209 cloud-init[528]: |   o o o . +..o+.|
+2026-04-05T11:07:34.941018+00:00 ip-172-31-75-209 cloud-init[528]: +----[SHA256]-----+
+2026-04-05T11:07:34.941022+00:00 ip-172-31-75-209 cloud-init[528]: Generating public/private ed25519 key pair.
+2026-04-05T11:07:34.941027+00:00 ip-172-31-75-209 cloud-init[528]: Your identification has been saved in /etc/ssh/ssh_host_ed25519_key
+2026-04-05T11:07:34.941031+00:00 ip-172-31-75-209 cloud-init[528]: Your public key has been saved in /etc/ssh/ssh_host_ed25519_key.pub
+2026-04-05T11:07:34.941036+00:00 ip-172-31-75-209 cloud-init[528]: The key fingerprint is:
+2026-04-05T11:07:34.941042+00:00 ip-172-31-75-209 cloud-init[528]: SHA256:bOdRViQQrmK7rRdiefLy5g2k6XdOSikF4LJXFBWvYTk root@ip-172-31-75-209
+2026-04-05T11:07:34.941046+00:00 ip-172-31-75-209 cloud-init[528]: The key's randomart image is:
+2026-04-05T11:07:34.941051+00:00 ip-172-31-75-209 cloud-init[528]: +--[ED25519 256]--+
+2026-04-05T11:07:34.941055+00:00 ip-172-31-75-209 cloud-init[528]: |    . ooo.oo..o  |
+2026-04-05T11:07:34.941059+00:00 ip-172-31-75-209 cloud-init[528]: |   . o   +   o   |
+2026-04-05T11:07:34.941064+00:00 ip-172-31-75-209 cloud-init[528]: |  . . o E o o    |
+2026-04-05T11:07:34.941069+00:00 ip-172-31-75-209 cloud-init[528]: |   o . + = o     |
+2026-04-05T11:07:34.941074+00:00 ip-172-31-75-209 cloud-init[528]: |  . . o.S o      |
+2026-04-05T11:07:34.941079+00:00 ip-172-31-75-209 cloud-init[528]: |   . .=Oo+ .     |
+2026-04-05T11:07:34.941084+00:00 ip-172-31-75-209 cloud-init[528]: |     .==+.o      |
+2026-04-05T11:07:34.941088+00:00 ip-172-31-75-209 cloud-init[528]: |     ..===.      |
+2026-04-05T11:07:34.941094+00:00 ip-172-31-75-209 cloud-init[528]: |      +O=oo      |
+2026-04-05T11:07:34.941098+00:00 ip-172-31-75-209 cloud-init[528]: +----[SHA256]-----+
+2026-04-05T11:07:34.941105+00:00 ip-172-31-75-209 systemd[1]: Finished cloud-init.service - Cloud-init: Network Stage.
+2026-04-05T11:07:34.941110+00:00 ip-172-31-75-209 systemd[1]: Reached target cloud-config.target - Cloud-config availability.
+2026-04-05T11:07:34.941116+00:00 ip-172-31-75-209 systemd[1]: Reached target network-online.target - Network is Online.
+2026-04-05T11:07:34.941121+00:00 ip-172-31-75-209 systemd[1]: Reached target sysinit.target - System Initialization.
+2026-04-05T11:07:34.941125+00:00 ip-172-31-75-209 systemd[1]: Started acpid.path - ACPI Events Check.
+2026-04-05T11:07:34.941130+00:00 ip-172-31-75-209 systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-04-05T11:07:34.941136+00:00 ip-172-31-75-209 systemd[1]: tpm-udev.path - Handle dynamically added tpm devices was skipped because of an unmet condition check (ConditionVirtualization=container).
+2026-04-05T11:07:34.941141+00:00 ip-172-31-75-209 systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2026-04-05T11:07:34.941146+00:00 ip-172-31-75-209 systemd[1]: Started systemd-tmpfiles-clean.timer - Daily Cleanup of Temporary Directories.
+2026-04-05T11:07:34.941151+00:00 ip-172-31-75-209 systemd[1]: ua-timer.timer - Ubuntu Pro Timer for running repeated jobs was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+2026-04-05T11:07:34.941156+00:00 ip-172-31-75-209 systemd[1]: Started update-notifier-download.timer - Download data for packages that failed at package install time.
+2026-04-05T11:07:34.941161+00:00 ip-172-31-75-209 systemd[1]: Reached target paths.target - Path Units.
+2026-04-05T11:07:34.941165+00:00 ip-172-31-75-209 systemd[1]: Listening on acpid.socket - ACPID Listen Socket.
+2026-04-05T11:07:34.941170+00:00 ip-172-31-75-209 systemd[1]: apport-forward.socket - Unix socket for apport crash forwarding was skipped because of an unmet condition check (ConditionVirtualization=container).
+2026-04-05T11:07:34.941174+00:00 ip-172-31-75-209 systemd[1]: Listening on cloud-init-hotplugd.socket - cloud-init hotplug hook socket.
+2026-04-05T11:07:34.941179+00:00 ip-172-31-75-209 systemd[1]: Listening on dbus.socket - D-Bus System Message Bus Socket.
+2026-04-05T11:07:34.941184+00:00 ip-172-31-75-209 systemd[1]: Listening on iscsid.socket - Open-iSCSI iscsid Socket.
+2026-04-05T11:07:34.941190+00:00 ip-172-31-75-209 systemd[1]: Starting lxd-installer.socket - Helper to install lxd snap on demand...
+2026-04-05T11:07:34.941195+00:00 ip-172-31-75-209 systemd[1]: Starting snapd.socket - Socket activation for snappy daemon...
+2026-04-05T11:07:34.941199+00:00 ip-172-31-75-209 systemd[1]: Listening on ssh.socket - OpenBSD Secure Shell server socket.
+2026-04-05T11:07:34.941204+00:00 ip-172-31-75-209 systemd[1]: Listening on uuidd.socket - UUID daemon activation socket.
+2026-04-05T11:07:34.941209+00:00 ip-172-31-75-209 systemd[1]: open-iscsi.service - Login to default iSCSI targets was skipped because no trigger condition checks were met.
+2026-04-05T11:07:34.941214+00:00 ip-172-31-75-209 systemd[1]: Reached target remote-fs-pre.target - Preparation for Remote File Systems.
+2026-04-05T11:07:34.941219+00:00 ip-172-31-75-209 systemd[1]: Reached target remote-fs.target - Remote File Systems.
+2026-04-05T11:07:34.941223+00:00 ip-172-31-75-209 systemd[1]: Finished blk-availability.service - Availability of block devices.
+2026-04-05T11:07:34.941227+00:00 ip-172-31-75-209 systemd[1]: systemd-pcrphase-sysinit.service - TPM2 PCR Barrier (Initialization) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-04-05T11:07:34.941232+00:00 ip-172-31-75-209 systemd[1]: Listening on lxd-installer.socket - Helper to install lxd snap on demand.
+2026-04-05T11:07:34.941236+00:00 ip-172-31-75-209 systemd[1]: Listening on snapd.socket - Socket activation for snappy daemon.
+2026-04-05T11:07:34.941241+00:00 ip-172-31-75-209 systemd[1]: Reached target sockets.target - Socket Units.
+2026-04-05T11:07:34.941246+00:00 ip-172-31-75-209 systemd[1]: Reached target basic.target - Basic System.
+2026-04-05T11:07:34.941250+00:00 ip-172-31-75-209 systemd[1]: Started acpid.service - ACPI event daemon.
+2026-04-05T11:07:34.941255+00:00 ip-172-31-75-209 systemd[1]: Starting apport.service - automatic crash report generation...
+2026-04-05T11:07:34.941260+00:00 ip-172-31-75-209 (acpid)[580]: acpid.service: Referenced but unset environment variable evaluates to an empty string: OPTIONS
+2026-04-05T11:07:34.941264+00:00 ip-172-31-75-209 systemd[1]: Starting chrony.service - chrony, an NTP client/server...
+2026-04-05T11:07:34.941268+00:00 ip-172-31-75-209 acpid: starting up with netlink and the input layer
+2026-04-05T11:07:34.941273+00:00 ip-172-31-75-209 acpid: 2 rules loaded
+2026-04-05T11:07:34.941277+00:00 ip-172-31-75-209 acpid: waiting for events: event logging is off
+2026-04-05T11:07:34.941283+00:00 ip-172-31-75-209 systemd[1]: Starting cloud-config.service - Cloud-init: Config Stage...
+2026-04-05T11:07:34.941288+00:00 ip-172-31-75-209 systemd[1]: Started cron.service - Regular background program processing daemon.
+2026-04-05T11:07:34.941293+00:00 ip-172-31-75-209 systemd[1]: Starting dbus.service - D-Bus System Message Bus...
+2026-04-05T11:07:34.941297+00:00 ip-172-31-75-209 systemd[1]: Started dmesg.service - Save initial kernel messages after boot.
+2026-04-05T11:07:34.941302+00:00 ip-172-31-75-209 (cron)[584]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+2026-04-05T11:07:34.941307+00:00 ip-172-31-75-209 cron[584]: (CRON) INFO (pidfile fd = 3)
+2026-04-05T11:07:34.941312+00:00 ip-172-31-75-209 cron[584]: (CRON) INFO (Running @reboot jobs)
+2026-04-05T11:07:34.941317+00:00 ip-172-31-75-209 systemd[1]: Starting e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots...
+2026-04-05T11:07:34.941322+00:00 ip-172-31-75-209 systemd[1]: Starting ec2-instance-connect-harvest-hostkeys.service - EC2 Instance Connect Host Key Harvesting...
+2026-04-05T11:07:34.941326+00:00 ip-172-31-75-209 systemd[1]: getty-static.service - getty on tty2-tty6 if dbus and logind are not available was skipped because of an unmet condition check (ConditionPathExists=!/usr/bin/dbus-daemon).
+2026-04-05T11:07:34.941332+00:00 ip-172-31-75-209 systemd[1]: Starting grub-common.service - Record successful boot for GRUB...
+2026-04-05T11:07:34.941337+00:00 ip-172-31-75-209 systemd[1]: Started irqbalance.service - irqbalance daemon.
+2026-04-05T11:07:34.941343+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] AppArmor D-Bus mediation is enabled
+2026-04-05T11:07:34.941348+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Activating systemd to hand-off: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service' requested by ':1.1' (uid=998 pid=518 comm="/usr/lib/systemd/systemd-networkd" label="unconfined")
+2026-04-05T11:07:34.941354+00:00 ip-172-31-75-209 systemd[1]: Starting networkd-dispatcher.service - Dispatcher daemon for systemd-networkd...
+2026-04-05T11:07:34.941359+00:00 ip-172-31-75-209 (qbalance)[590]: irqbalance.service: Referenced but unset environment variable evaluates to an empty string: IRQBALANCE_ARGS
+2026-04-05T11:07:34.941363+00:00 ip-172-31-75-209 systemd[1]: Starting polkit.service - Authorization Manager...
+2026-04-05T11:07:34.941368+00:00 ip-172-31-75-209 systemd[1]: Starting pollinate.service - Pollinate to seed the pseudo random number generator...
+2026-04-05T11:07:34.941372+00:00 ip-172-31-75-209 systemd[1]: Starting rsyslog.service - System Logging Service...
+2026-04-05T11:07:34.941377+00:00 ip-172-31-75-209 systemd[1]: secureboot-db.service - Secure Boot updates for DB and DBX was skipped because of an unmet condition check (ConditionPathExists=/sys/firmware/efi/efivars/db-d719b2cb-3d3a-4596-a3bc-dad00e67656f).
+2026-04-05T11:07:34.941382+00:00 ip-172-31-75-209 systemd[1]: snapd.core-fixup.service - Automatically repair incorrect owner/permissions on core devices was skipped because no trigger condition checks were met.
+2026-04-05T11:07:34.941387+00:00 ip-172-31-75-209 systemd[1]: snapd.recovery-chooser-trigger.service - Wait for the Ubuntu Core chooser trigger was skipped because of an unmet condition check (ConditionKernelCommandLine=snapd_recovery_mode).
+2026-04-05T11:07:34.941391+00:00 ip-172-31-75-209 systemd[1]: Reached target getty-pre.target - Preparation for Logins.
+2026-04-05T11:07:34.941395+00:00 ip-172-31-75-209 systemd[1]: Starting snapd.seeded.service - Wait until snapd is fully seeded...
+2026-04-05T11:07:34.941399+00:00 ip-172-31-75-209 systemd[1]: Starting snapd.service - Snap Daemon...
+2026-04-05T11:07:34.941404+00:00 ip-172-31-75-209 systemd[1]: Starting sysstat.service - Resets System Activity Logs...
+2026-04-05T11:07:34.941409+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-logind.service - User Login Management...
+2026-04-05T11:07:34.941413+00:00 ip-172-31-75-209 systemd[1]: systemd-pcrphase.service - TPM2 PCR Barrier (User) was skipped because of an unmet condition check (ConditionSecurity=measured-uki).
+2026-04-05T11:07:34.941418+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-user-sessions.service - Permit User Sessions...
+2026-04-05T11:07:34.941423+00:00 ip-172-31-75-209 systemd[1]: ua-reboot-cmds.service - Ubuntu Pro reboot cmds was skipped because of an unmet condition check (ConditionPathExists=/var/lib/ubuntu-advantage/private/machine-token.json).
+2026-04-05T11:07:34.941428+00:00 ip-172-31-75-209 systemd[1]: ubuntu-advantage.service - Ubuntu Pro Background Auto Attach was skipped because no trigger condition checks were met.
+2026-04-05T11:07:34.941432+00:00 ip-172-31-75-209 systemd[1]: Starting udisks2.service - Disk Manager...
+2026-04-05T11:07:34.941437+00:00 ip-172-31-75-209 systemd[1]: Started dbus.service - D-Bus System Message Bus.
+2026-04-05T11:07:34.941441+00:00 ip-172-31-75-209 systemd[1]: e2scrub_reap.service: Deactivated successfully.
+2026-04-05T11:07:34.941447+00:00 ip-172-31-75-209 systemd[1]: Finished e2scrub_reap.service - Remove Stale Online ext4 Metadata Check Snapshots.
+2026-04-05T11:07:34.941451+00:00 ip-172-31-75-209 systemd[1]: Finished sysstat.service - Resets System Activity Logs.
+2026-04-05T11:07:34.941456+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-user-sessions.service - Permit User Sessions.
+2026-04-05T11:07:34.941461+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Successfully activated service 'org.freedesktop.systemd1'
+2026-04-05T11:07:34.941466+00:00 ip-172-31-75-209 udisksd[621]: udisks daemon version 2.10.1 starting
+2026-04-05T11:07:34.941471+00:00 ip-172-31-75-209 systemd[1]: Starting plymouth-quit-wait.service - Hold until boot process finishes up...
+2026-04-05T11:07:34.941475+00:00 ip-172-31-75-209 systemd[1]: Starting plymouth-quit.service - Terminate Plymouth Boot Screen...
+2026-04-05T11:07:34.941485+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Activating via systemd: service name='org.freedesktop.PolicyKit1' unit='polkit.service' requested by ':1.3' (uid=0 pid=621 comm="/usr/libexec/udisks2/udisksd" label="unconfined")
+2026-04-05T11:07:34.941504+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-hostnamed.service - Hostname Service...
+2026-04-05T11:07:34.941508+00:00 ip-172-31-75-209 systemd[1]: Started systemd-logind.service - User Login Management.
+2026-04-05T11:07:34.941513+00:00 ip-172-31-75-209 systemd[1]: Finished plymouth-quit-wait.service - Hold until boot process finishes up.
+2026-04-05T11:07:34.941517+00:00 ip-172-31-75-209 pollinate[597]: client sent challenge to [https://entropy.ubuntu.com/]
+2026-04-05T11:07:34.941524+00:00 ip-172-31-75-209 systemd[1]: Finished plymouth-quit.service - Terminate Plymouth Boot Screen.
+2026-04-05T11:07:34.941528+00:00 ip-172-31-75-209 networkd-dispatcher[594]: No valid path found for iwconfig
+2026-04-05T11:07:34.941533+00:00 ip-172-31-75-209 networkd-dispatcher[594]: No valid path found for iw
+2026-04-05T11:07:34.941537+00:00 ip-172-31-75-209 chronyd[700]: chronyd version 4.5 starting (+CMDMON +NTP +REFCLOCK +RTC +PRIVDROP +SCFILTER +SIGND +ASYNCDNS +NTS +SECHASH +IPV6 -DEBUG)
+2026-04-05T11:07:34.941543+00:00 ip-172-31-75-209 systemd[1]: Started serial-getty@ttyS0.service - Serial Getty on ttyS0.
+2026-04-05T11:07:34.941548+00:00 ip-172-31-75-209 chronyd[700]: Loaded 0 symmetric keys
+2026-04-05T11:07:34.941552+00:00 ip-172-31-75-209 chronyd[700]: Using right/UTC timezone to obtain leap second data
+2026-04-05T11:07:34.941556+00:00 ip-172-31-75-209 chronyd[700]: Loaded seccomp filter (level 1)
+2026-04-05T11:07:34.941561+00:00 ip-172-31-75-209 systemd[1]: Starting setvtrgb.service - Set console scheme...
+2026-04-05T11:07:34.941565+00:00 ip-172-31-75-209 polkitd[595]: Started polkitd version 124
+2026-04-05T11:07:34.941570+00:00 ip-172-31-75-209 systemd[1]: Started unattended-upgrades.service - Unattended Upgrades Shutdown.
+2026-04-05T11:07:34.941580+00:00 ip-172-31-75-209 systemd[1]: Started chrony.service - chrony, an NTP client/server.
+2026-04-05T11:07:34.941589+00:00 ip-172-31-75-209 systemd[1]: grub-common.service: Deactivated successfully.
+2026-04-05T11:07:34.941593+00:00 ip-172-31-75-209 systemd[1]: Finished grub-common.service - Record successful boot for GRUB.
+2026-04-05T11:07:34.941597+00:00 ip-172-31-75-209 systemd[1]: Started networkd-dispatcher.service - Dispatcher daemon for systemd-networkd.
+2026-04-05T11:07:34.941602+00:00 ip-172-31-75-209 systemd[1]: Finished setvtrgb.service - Set console scheme.
+2026-04-05T11:07:34.941612+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Successfully activated service 'org.freedesktop.PolicyKit1'
+2026-04-05T11:07:34.941621+00:00 ip-172-31-75-209 systemd[1]: Started polkit.service - Authorization Manager.
+2026-04-05T11:07:34.941626+00:00 ip-172-31-75-209 systemd[1]: Created slice system-getty.slice - Slice /system/getty.
+2026-04-05T11:07:34.941631+00:00 ip-172-31-75-209 systemd[1]: Reached target time-sync.target - System Time Synchronized.
+2026-04-05T11:07:34.941635+00:00 ip-172-31-75-209 systemd[1]: Started apt-daily.timer - Daily apt download activities.
+2026-04-05T11:07:34.941640+00:00 ip-172-31-75-209 systemd[1]: Started apt-daily-upgrade.timer - Daily apt upgrade and clean activities.
+2026-04-05T11:07:34.941645+00:00 ip-172-31-75-209 systemd[1]: Started dpkg-db-backup.timer - Daily dpkg database backup timer.
+2026-04-05T11:07:34.941661+00:00 ip-172-31-75-209 systemd[1]: Started e2scrub_all.timer - Periodic ext4 Online Metadata Check for All Filesystems.
+2026-04-05T11:07:34.941666+00:00 ip-172-31-75-209 systemd[1]: Started fstrim.timer - Discard unused filesystem blocks once a week.
+2026-04-05T11:07:34.941670+00:00 ip-172-31-75-209 systemd[1]: Started fwupd-refresh.timer - Refresh fwupd metadata regularly.
+2026-04-05T11:07:34.941675+00:00 ip-172-31-75-209 systemd[1]: Started logrotate.timer - Daily rotation of log files.
+2026-04-05T11:07:34.941679+00:00 ip-172-31-75-209 systemd[1]: Started man-db.timer - Daily man-db regeneration.
+2026-04-05T11:07:34.941684+00:00 ip-172-31-75-209 systemd[1]: Started motd-news.timer - Message of the Day.
+2026-04-05T11:07:34.941689+00:00 ip-172-31-75-209 systemd[1]: snapd.snap-repair.timer - Timer to automatically fetch and run repair assertions was skipped because no trigger condition checks were met.
+2026-04-05T11:07:34.941699+00:00 ip-172-31-75-209 systemd[1]: Started sysstat-collect.timer - Run system activity accounting tool every 10 minutes.
+2026-04-05T11:07:34.941704+00:00 ip-172-31-75-209 systemd[1]: Started sysstat-summary.timer - Generate summary of yesterday's process accounting.
+2026-04-05T11:07:34.941708+00:00 ip-172-31-75-209 systemd[1]: Started update-notifier-motd.timer - Check to see whether there is a new version of Ubuntu available.
+2026-04-05T11:07:34.941713+00:00 ip-172-31-75-209 systemd[1]: Reached target timers.target - Timer Units.
+2026-04-05T11:07:34.941717+00:00 ip-172-31-75-209 systemd[1]: Starting ModemManager.service - Modem Manager...
+2026-04-05T11:07:34.941722+00:00 ip-172-31-75-209 systemd[1]: Started getty@tty1.service - Getty on tty1.
+2026-04-05T11:07:34.941731+00:00 ip-172-31-75-209 systemd[1]: Reached target getty.target - Login Prompts.
+2026-04-05T11:07:34.941737+00:00 ip-172-31-75-209 systemd[1]: Starting grub-initrd-fallback.service - GRUB failed boot detection...
+2026-04-05T11:07:34.941741+00:00 ip-172-31-75-209 systemd[1]: Finished apport.service - automatic crash report generation.
+2026-04-05T11:07:34.941746+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Successfully activated service 'org.freedesktop.hostname1'
+2026-04-05T11:07:34.941751+00:00 ip-172-31-75-209 systemd[1]: Started systemd-hostnamed.service - Hostname Service.
+2026-04-05T11:07:34.941756+00:00 ip-172-31-75-209 ModemManager[776]: <msg> ModemManager (version 1.23.4) starting in system bus...
+2026-04-05T11:07:34.941761+00:00 ip-172-31-75-209 udisksd[621]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+2026-04-05T11:07:34.941771+00:00 ip-172-31-75-209 systemd[1]: Started udisks2.service - Disk Manager.
+2026-04-05T11:07:34.941775+00:00 ip-172-31-75-209 pollinate[597]: client verified challenge/response with [https://entropy.ubuntu.com/]
+2026-04-05T11:07:34.941781+00:00 ip-172-31-75-209 snapd[606]: overlord.go:294: Acquiring state lock file
+2026-04-05T11:07:34.941785+00:00 ip-172-31-75-209 snapd[606]: overlord.go:299: Acquired state lock file
+2026-04-05T11:07:34.941790+00:00 ip-172-31-75-209 systemd[1]: grub-initrd-fallback.service: Deactivated successfully.
+2026-04-05T11:07:34.941794+00:00 ip-172-31-75-209 systemd[1]: Finished grub-initrd-fallback.service - GRUB failed boot detection.
+2026-04-05T11:07:34.948845+00:00 ip-172-31-75-209 kernel: loop3: detected capacity change from 0 to 8
+2026-04-05T11:07:34.955870+00:00 ip-172-31-75-209 systemd-hostnamed[671]: Hostname set to <ip-172-31-75-209> (static)
+2026-04-05T11:07:34.955900+00:00 ip-172-31-75-209 snapd[606]: patch.go:64: Patching system state level 6 to sublevel 1...
+2026-04-05T11:07:34.955907+00:00 ip-172-31-75-209 pollinate[597]: client hashed response from [https://entropy.ubuntu.com/]
+2026-04-05T11:07:34.955915+00:00 ip-172-31-75-209 snapd[606]: patch.go:64: Patching system state level 6 to sublevel 2...
+2026-04-05T11:07:34.955921+00:00 ip-172-31-75-209 pollinate[597]: client successfully seeded [/dev/urandom]
+2026-04-05T11:07:34.955927+00:00 ip-172-31-75-209 snapd[606]: patch.go:64: Patching system state level 6 to sublevel 3...
+2026-04-05T11:07:34.955931+00:00 ip-172-31-75-209 systemd[1]: pollinate.service: Deactivated successfully.
+2026-04-05T11:07:34.955936+00:00 ip-172-31-75-209 systemd[1]: Finished pollinate.service - Pollinate to seed the pseudo random number generator.
+2026-04-05T11:07:34.955941+00:00 ip-172-31-75-209 snapd[606]: daemon.go:276: started snapd/2.73+ubuntu24.04 (series 16; classic) ubuntu/24.04 (amd64) linux/6.17.0-1007-aws.
+2026-04-05T11:07:34.929190+00:00 ip-172-31-75-209 rsyslogd: imuxsock: Acquired UNIX socket '/run/systemd/journal/syslog' (fd 3) from systemd.  [v8.2312.0]
+2026-04-05T11:07:34.929292+00:00 ip-172-31-75-209 rsyslogd: rsyslogd's groupid changed to 102
+2026-04-05T11:07:34.929347+00:00 ip-172-31-75-209 rsyslogd: rsyslogd's userid changed to 102
+2026-04-05T11:07:34.929382+00:00 ip-172-31-75-209 rsyslogd: [origin software="rsyslogd" swVersion="8.2312.0" x-pid="803" x-info="https://www.rsyslog.com"] start
+2026-04-05T11:07:34.931289+00:00 ip-172-31-75-209 systemd[1]: Started rsyslog.service - System Logging Service.
+2026-04-05T11:07:34.964334+00:00 ip-172-31-75-209 snapd[606]: daemon.go:370: adjusting startup timeout by 45s (pessimistic estimate of 30s plus 5s per snap)
+2026-04-05T11:07:34.980939+00:00 ip-172-31-75-209 systemd[1]: tmp-syscheck\x2dmountpoint\x2d1195585216.mount: Deactivated successfully.
+2026-04-05T11:07:35.011180+00:00 ip-172-31-75-209 snapd[606]: backends.go:70: AppArmor status: apparmor is enabled and all features are available
+2026-04-05T11:07:35.021234+00:00 ip-172-31-75-209 systemd[1]: Started ModemManager.service - Modem Manager.
+2026-04-05T11:07:35.052956+00:00 ip-172-31-75-209 snapd[606]: backend.go:145: reloading profiles for snap-confine
+2026-04-05T11:07:35.066657+00:00 ip-172-31-75-209 systemd[1]: ec2-instance-connect-harvest-hostkeys.service: Deactivated successfully.
+2026-04-05T11:07:35.066742+00:00 ip-172-31-75-209 systemd[1]: Finished ec2-instance-connect-harvest-hostkeys.service - EC2 Instance Connect Host Key Harvesting.
+2026-04-05T11:07:35.181628+00:00 ip-172-31-75-209 cloud-init[878]: Cloud-init v. 25.3-0ubuntu1~24.04.1 running 'modules:config' at Sun, 05 Apr 2026 11:07:35 +0000. Up 11.06 seconds.
+2026-04-05T11:07:35.197973+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387255.196:128): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine" pid=873 comm="apparmor_parser"
+2026-04-05T11:07:35.199920+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775387255.198:129): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/snapd/snap-confine//mount-namespace-capture-helper" pid=873 comm="apparmor_parser"
+2026-04-05T11:07:35.291698+00:00 ip-172-31-75-209 systemd[1]: Started snapd.service - Snap Daemon.
+2026-04-05T11:07:35.406137+00:00 ip-172-31-75-209 systemd[1]: Finished cloud-config.service - Cloud-init: Config Stage.
+2026-04-05T11:07:35.422192+00:00 ip-172-31-75-209 systemd[1]: Starting hibinit-agent.service - EC2 instance hibernation setup agent...
+2026-04-05T11:07:35.637193+00:00 ip-172-31-75-209 hibinit-agent: Effective config: {'log_to_syslog': True, 'log_to_stderr': True, 'mkswap': 'mkswap {swapfile}', 'swapon': 'swapon {swapfile}', 'swapoff': 'swapoff {swapfile}', 'touch_swap': False, 'grub_update': True, 'swap_percentage': 100, 'swap_mb': 4000, 'state_dir': '/var/lib/hibinit-agent'}
+2026-04-05T11:07:35.637306+00:00 ip-172-31-75-209 hibinit-agent[904]: Effective config: {'log_to_syslog': True, 'log_to_stderr': True, 'mkswap': 'mkswap {swapfile}', 'swapon': 'swapon {swapfile}', 'swapoff': 'swapoff {swapfile}', 'touch_swap': False, 'grub_update': True, 'swap_percentage': 100, 'swap_mb': 4000, 'state_dir': '/var/lib/hibinit-agent'}
+2026-04-05T11:07:35.637348+00:00 ip-172-31-75-209 hibinit-agent[904]: Requesting new IMDSv2 token.
+2026-04-05T11:07:35.637396+00:00 ip-172-31-75-209 hibinit-agent: Requesting new IMDSv2 token.
+2026-04-05T11:07:35.644314+00:00 ip-172-31-75-209 hibinit-agent: Instance Launch has not enabled Hibernation Configured Flag. hibinit-agent exiting!!
+2026-04-05T11:07:35.644440+00:00 ip-172-31-75-209 hibinit-agent[904]: Instance Launch has not enabled Hibernation Configured Flag. hibinit-agent exiting!!
+2026-04-05T11:07:35.681448+00:00 ip-172-31-75-209 systemd[1]: hibinit-agent.service: Deactivated successfully.
+2026-04-05T11:07:35.682082+00:00 ip-172-31-75-209 systemd[1]: Started hibinit-agent.service - EC2 instance hibernation setup agent.
+2026-04-05T11:07:35.747881+00:00 ip-172-31-75-209 systemd[1]: Reloading requested from client PID 911 ('systemctl') (unit snapd.service)...
+2026-04-05T11:07:35.747963+00:00 ip-172-31-75-209 systemd[1]: Reloading...
+2026-04-05T11:07:36.159843+00:00 ip-172-31-75-209 systemd[1]: Reloading finished in 413 ms.
+2026-04-05T11:07:36.211418+00:00 ip-172-31-75-209 systemd[1]: Started snap.amazon-ssm-agent.amazon-ssm-agent.service - Service for snap application amazon-ssm-agent.amazon-ssm-agent.
+2026-04-05T11:07:36.284789+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Activating via systemd: service name='org.freedesktop.timedate1' unit='dbus-org.freedesktop.timedate1.service' requested by ':1.12' (uid=0 pid=606 comm="/usr/lib/snapd/snapd" label="unconfined")
+2026-04-05T11:07:36.300003+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-timedated.service - Time & Date Service...
+2026-04-05T11:07:36.394308+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Successfully activated service 'org.freedesktop.timedate1'
+2026-04-05T11:07:36.394602+00:00 ip-172-31-75-209 systemd[1]: Started systemd-timedated.service - Time & Date Service.
+2026-04-05T11:07:36.945789+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: Error occurred fetching the seelog config file path:  open /etc/amazon/ssm/seelog.xml: no such file or directory
+2026-04-05T11:07:36.945980+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: Initializing new seelog logger
+2026-04-05T11:07:36.946263+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: New Seelog Logger Creation Complete
+2026-04-05T11:07:36.960884+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9485 WARN Error adding the directory '/etc/amazon/ssm' to watcher: no such file or directory
+2026-04-05T11:07:37.060071+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9523 INFO Proxy environment variables:
+2026-04-05T11:07:37.158466+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9523 INFO http_proxy:
+2026-04-05T11:07:37.256308+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9523 INFO no_proxy:
+2026-04-05T11:07:37.354368+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9523 INFO https_proxy:
+2026-04-05T11:07:37.450803+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9524 INFO Checking if agent identity type OnPrem can be assumed
+2026-04-05T11:07:37.547345+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9551 INFO Checking if agent identity type EC2 can be assumed
+2026-04-05T11:07:37.643583+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9966 INFO Agent will take identity from EC2
+2026-04-05T11:07:37.740877+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:36.9999 INFO Telemetry initialized
+2026-04-05T11:07:37.838183+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0019 INFO [amazon-ssm-agent] amazon-ssm-agent - v3.3.3050.0
+2026-04-05T11:07:37.905297+00:00 ip-172-31-75-209 systemd[1]: Finished snapd.seeded.service - Wait until snapd is fully seeded.
+2026-04-05T11:07:37.908828+00:00 ip-172-31-75-209 systemd[1]: snapd.autoimport.service - Auto import assertions from block devices was skipped because no trigger condition checks were met.
+2026-04-05T11:07:37.909565+00:00 ip-172-31-75-209 systemd[1]: Reached target multi-user.target - Multi-User System.
+2026-04-05T11:07:37.912026+00:00 ip-172-31-75-209 systemd[1]: Reached target graphical.target - Graphical Interface.
+2026-04-05T11:07:37.919126+00:00 ip-172-31-75-209 systemd[1]: Starting cloud-final.service - Cloud-init: Final Stage...
+2026-04-05T11:07:37.922911+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP...
+2026-04-05T11:07:37.935432+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0020 INFO [amazon-ssm-agent] OS: linux, Arch: amd64
+2026-04-05T11:07:37.958360+00:00 ip-172-31-75-209 systemd[1]: systemd-update-utmp-runlevel.service: Deactivated successfully.
+2026-04-05T11:07:37.958667+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-update-utmp-runlevel.service - Record Runlevel Change in UTMP.
+2026-04-05T11:07:38.033213+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0020 INFO [amazon-ssm-agent] Starting Core Agent
+2026-04-05T11:07:38.130207+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0020 INFO [amazon-ssm-agent] Registrar detected. Attempting registration
+2026-04-05T11:07:38.228473+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0020 INFO [Registrar] Starting registrar module
+2026-04-05T11:07:38.326784+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0047 INFO [EC2Identity] Checking disk for registration info
+2026-04-05T11:07:38.421248+00:00 ip-172-31-75-209 cloud-init[989]: Cloud-init v. 25.3-0ubuntu1~24.04.1 running 'modules:final' at Sun, 05 Apr 2026 11:07:38 +0000. Up 14.30 seconds.
+2026-04-05T11:07:38.425322+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0047 INFO [EC2Identity] No registration info found for ec2 instance, attempting registration
+2026-04-05T11:07:38.488205+00:00 ip-172-31-75-209 cloud-init: #############################################################
+2026-04-05T11:07:38.491963+00:00 ip-172-31-75-209 cloud-init: -----BEGIN SSH HOST KEY FINGERPRINTS-----
+2026-04-05T11:07:38.517959+00:00 ip-172-31-75-209 cloud-init: 256 SHA256:MB503rV/Jr9WFm66sFv8cXscDcZ6tGWqkmhDLiZmhUk root@ip-172-31-75-209 (ECDSA)
+2026-04-05T11:07:38.525893+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.0047 INFO [EC2Identity] Generating registration keypair
+2026-04-05T11:07:38.540260+00:00 ip-172-31-75-209 cloud-init: 256 SHA256:bOdRViQQrmK7rRdiefLy5g2k6XdOSikF4LJXFBWvYTk root@ip-172-31-75-209 (ED25519)
+2026-04-05T11:07:38.556900+00:00 ip-172-31-75-209 systemd[1]: dmesg.service: Deactivated successfully.
+2026-04-05T11:07:38.557451+00:00 ip-172-31-75-209 cloud-init: 3072 SHA256:BAbi9qrq85THsubDJF0yeY4eSTdaNjYni0aDkVGJInY root@ip-172-31-75-209 (RSA)
+2026-04-05T11:07:38.560277+00:00 ip-172-31-75-209 cloud-init: -----END SSH HOST KEY FINGERPRINTS-----
+2026-04-05T11:07:38.563099+00:00 ip-172-31-75-209 cloud-init: #############################################################
+2026-04-05T11:07:38.623214+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.2427 INFO [EC2Identity] Checking write access before registering
+2026-04-05T11:07:38.641891+00:00 ip-172-31-75-209 cloud-init[989]: Cloud-init v. 25.3-0ubuntu1~24.04.1 finished at Sun, 05 Apr 2026 11:07:38 +0000. Datasource DataSourceEc2Local.  Up 14.57 seconds
+2026-04-05T11:07:38.722579+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.2432 INFO [EC2Identity] Registering EC2 instance with Systems Manager
+2026-04-05T11:07:38.746733+00:00 ip-172-31-75-209 systemd[1]: Finished cloud-final.service - Cloud-init: Final Stage.
+2026-04-05T11:07:38.748062+00:00 ip-172-31-75-209 systemd[1]: Reached target cloud-init.target - Cloud-init target.
+2026-04-05T11:07:38.748497+00:00 ip-172-31-75-209 systemd[1]: Startup finished in 1.181s (kernel) + 13.506s (userspace) = 14.688s.
+2026-04-05T11:07:38.821821+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.2829 INFO [EC2Identity] EC2 registration was successful.
+2026-04-05T11:07:38.921127+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.2830 INFO [amazon-ssm-agent] Registration attempted. Resuming core agent startup.
+2026-04-05T11:07:39.020542+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.2831 INFO [CredentialRefresher] credentialRefresher has started
+2026-04-05T11:07:39.067272+00:00 ip-172-31-75-209 ModemManager[776]: <msg> [base-manager] couldn't check support for device '/sys/devices/pci0000:00/0000:00:05.0': not supported by any plugin
+2026-04-05T11:07:39.119941+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.2831 INFO [CredentialRefresher] Starting credentials refresher loop
+2026-04-05T11:07:39.219936+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.2876 WARN EC2RoleProvider Failed to connect to Systems Manager with instance profile role credentials. Err: retrieved credentials failed to report to ssm. Error: EC2RoleRequestError: no EC2 instance role found
+2026-04-05T11:07:39.320486+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.3162 ERROR EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 805477067701
+2026-04-05T11:07:39.320548+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: #011status code: 400, request id: 1f2978f0-eafb-4449-8a2f-c5aed4e0a626
+2026-04-05T11:07:39.420738+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.3163 ERROR [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 805477067701
+2026-04-05T11:07:39.420798+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: #011status code: 400, request id: 1f2978f0-eafb-4449-8a2f-c5aed4e0a626
+2026-04-05T11:07:39.521199+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.3163 INFO [CredentialRefresher] Sleeping for 26m6s before retrying retrieve credentials
+2026-04-05T11:07:39.621495+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:07:37.3165 INFO [SerialPort] Write to serial port: SSM Agent unable to acquire credentials: <error>no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 805477067701
+2026-04-05T11:07:39.621573+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: #011status code: 400, request id: 1f2978f0-eafb-4449-8a2f-c5aed4e0a626</error>
+2026-04-05T11:07:41.065434+00:00 ip-172-31-75-209 chronyd[700]: Selected source 169.254.169.123
+2026-04-05T11:07:41.065519+00:00 ip-172-31-75-209 chronyd[700]: System clock TAI offset set to 37 seconds
+2026-04-05T11:07:57.067890+00:00 ip-172-31-75-209 systemd[1]: systemd-fsckd.service: Deactivated successfully.
+2026-04-05T11:08:04.866060+00:00 ip-172-31-75-209 systemd[1]: systemd-hostnamed.service: Deactivated successfully.
+2026-04-05T11:08:12.357616+00:00 ip-172-31-75-209 systemd[1]: systemd-timedated.service: Deactivated successfully.
+2026-04-05T11:10:05.297866+00:00 ip-172-31-75-209 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-04-05T11:10:05.303985+00:00 ip-172-31-75-209 systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-04-05T11:10:05.304173+00:00 ip-172-31-75-209 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-04-05T11:12:35.324086+00:00 ip-172-31-75-209 systemd[1]: Starting update-notifier-download.service - Download data for packages that failed at package install time...
+2026-04-05T11:12:35.492080+00:00 ip-172-31-75-209 systemd[1]: update-notifier-download.service: Deactivated successfully.
+2026-04-05T11:12:35.492301+00:00 ip-172-31-75-209 systemd[1]: Finished update-notifier-download.service - Download data for packages that failed at package install time.
+2026-04-05T11:15:01.478467+00:00 ip-172-31-75-209 CRON[1027]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-04-05T11:17:01.486746+00:00 ip-172-31-75-209 CRON[1030]: (root) CMD (cd / && run-parts --report /etc/cron.hourly)
+2026-04-05T11:20:05.298992+00:00 ip-172-31-75-209 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-04-05T11:20:05.303229+00:00 ip-172-31-75-209 systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-04-05T11:20:05.303392+00:00 ip-172-31-75-209 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-04-05T11:22:35.297731+00:00 ip-172-31-75-209 systemd[1]: Starting systemd-tmpfiles-clean.service - Cleanup of Temporary Directories...
+2026-04-05T11:22:35.387518+00:00 ip-172-31-75-209 systemd[1]: systemd-tmpfiles-clean.service: Deactivated successfully.
+2026-04-05T11:22:35.387750+00:00 ip-172-31-75-209 systemd[1]: Finished systemd-tmpfiles-clean.service - Cleanup of Temporary Directories.
+2026-04-05T11:25:01.497351+00:00 ip-172-31-75-209 CRON[1043]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-04-05T11:30:05.299651+00:00 ip-172-31-75-209 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-04-05T11:30:05.302946+00:00 ip-172-31-75-209 systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-04-05T11:30:05.303178+00:00 ip-172-31-75-209 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-04-05T11:33:43.320607+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:33:43.3200 WARN EC2RoleProvider Failed to connect to Systems Manager with instance profile role credentials. Err: retrieved credentials failed to report to ssm. Error: EC2RoleRequestError: no EC2 instance role found
+2026-04-05T11:33:43.422366+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:33:43.3551 ERROR EC2RoleProvider Failed to connect to Systems Manager with SSM role credentials. error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 805477067701
+2026-04-05T11:33:43.422495+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: #011status code: 400, request id: 1fe11d97-6d23-4550-958f-12a61582d8c5
+2026-04-05T11:33:43.522727+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:33:43.3551 ERROR [CredentialRefresher] Retrieve credentials produced error: no valid credentials could be retrieved for ec2 identity. Default Host Management Err: error calling RequestManagedInstanceRoleToken: AccessDeniedException: Systems Manager's instance management role is not configured for account: 805477067701
+2026-04-05T11:33:43.522893+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: #011status code: 400, request id: 1fe11d97-6d23-4550-958f-12a61582d8c5
+2026-04-05T11:33:43.623175+00:00 ip-172-31-75-209 amazon-ssm-agent.amazon-ssm-agent[956]: 2026-04-05 11:33:43.3551 INFO [CredentialRefresher] Sleeping for 27m19s before retrying retrieve credentials
+2026-04-05T11:35:01.512518+00:00 ip-172-31-75-209 CRON[1053]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-04-05T11:40:05.296561+00:00 ip-172-31-75-209 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-04-05T11:40:05.303368+00:00 ip-172-31-75-209 systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-04-05T11:40:05.303633+00:00 ip-172-31-75-209 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-04-05T11:45:01.520269+00:00 ip-172-31-75-209 CRON[1061]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+2026-04-05T11:46:12.703060+00:00 ip-172-31-75-209 systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+2026-04-05T11:46:12.738610+00:00 ip-172-31-75-209 systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+2026-04-05T11:46:17.653110+00:00 ip-172-31-75-209 systemd[1]: Created slice user-1000.slice - User Slice of UID 1000.
+2026-04-05T11:46:17.654505+00:00 ip-172-31-75-209 systemd[1]: Starting user-runtime-dir@1000.service - User Runtime Directory /run/user/1000...
+2026-04-05T11:46:17.670747+00:00 ip-172-31-75-209 systemd[1]: Finished user-runtime-dir@1000.service - User Runtime Directory /run/user/1000.
+2026-04-05T11:46:17.680363+00:00 ip-172-31-75-209 systemd[1]: Starting user@1000.service - User Manager for UID 1000...
+2026-04-05T11:46:17.802208+00:00 ip-172-31-75-209 systemd[1072]: Queued start job for default target default.target.
+2026-04-05T11:46:17.809738+00:00 ip-172-31-75-209 systemd[1072]: Created slice app.slice - User Application Slice.
+2026-04-05T11:46:17.809926+00:00 ip-172-31-75-209 systemd[1072]: Started launchpadlib-cache-clean.timer - Clean up old files in the Launchpadlib cache.
+2026-04-05T11:46:17.810030+00:00 ip-172-31-75-209 systemd[1072]: Reached target paths.target - Paths.
+2026-04-05T11:46:17.810109+00:00 ip-172-31-75-209 systemd[1072]: Reached target timers.target - Timers.
+2026-04-05T11:46:17.810192+00:00 ip-172-31-75-209 systemd[1072]: Starting dbus.socket - D-Bus User Message Bus Socket...
+2026-04-05T11:46:17.810280+00:00 ip-172-31-75-209 systemd[1072]: Listening on dirmngr.socket - GnuPG network certificate management daemon.
+2026-04-05T11:46:17.810331+00:00 ip-172-31-75-209 systemd[1072]: Listening on gpg-agent-browser.socket - GnuPG cryptographic agent and passphrase cache (access for web browsers).
+2026-04-05T11:46:17.810381+00:00 ip-172-31-75-209 systemd[1072]: Listening on gpg-agent-extra.socket - GnuPG cryptographic agent and passphrase cache (restricted).
+2026-04-05T11:46:17.811428+00:00 ip-172-31-75-209 systemd[1072]: Starting gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation)...
+2026-04-05T11:46:17.811576+00:00 ip-172-31-75-209 systemd[1072]: Listening on gpg-agent.socket - GnuPG cryptographic agent and passphrase cache.
+2026-04-05T11:46:17.812125+00:00 ip-172-31-75-209 systemd[1072]: Listening on keyboxd.socket - GnuPG public key management service.
+2026-04-05T11:46:17.812429+00:00 ip-172-31-75-209 systemd[1072]: Listening on pk-debconf-helper.socket - debconf communication socket.
+2026-04-05T11:46:17.812666+00:00 ip-172-31-75-209 systemd[1072]: Listening on snapd.session-agent.socket - REST API socket for snapd user session agent.
+2026-04-05T11:46:17.823989+00:00 ip-172-31-75-209 systemd[1072]: Listening on dbus.socket - D-Bus User Message Bus Socket.
+2026-04-05T11:46:17.838227+00:00 ip-172-31-75-209 systemd[1072]: Listening on gpg-agent-ssh.socket - GnuPG cryptographic agent (ssh-agent emulation).
+2026-04-05T11:46:17.838364+00:00 ip-172-31-75-209 systemd[1072]: Reached target sockets.target - Sockets.
+2026-04-05T11:46:17.838506+00:00 ip-172-31-75-209 systemd[1072]: Reached target basic.target - Basic System.
+2026-04-05T11:46:17.838582+00:00 ip-172-31-75-209 systemd[1072]: Reached target default.target - Main User Target.
+2026-04-05T11:46:17.838642+00:00 ip-172-31-75-209 systemd[1072]: Startup finished in 147ms.
+2026-04-05T11:46:17.838938+00:00 ip-172-31-75-209 systemd[1]: Started user@1000.service - User Manager for UID 1000.
+2026-04-05T11:46:17.840703+00:00 ip-172-31-75-209 systemd[1]: Started session-6.scope - Session 6 of User ubuntu.
+2026-04-05T11:47:20.096087+00:00 ip-172-31-75-209 systemd[1]: Starting apt-news.service - Update APT News...
+2026-04-05T11:47:20.114750+00:00 ip-172-31-75-209 systemd[1]: Starting esm-cache.service - Update the local ESM caches...
+2026-04-05T11:47:20.541403+00:00 ip-172-31-75-209 python3[1238]: ["2026-04-05T11:47:20.540", "INFO", "ubuntupro.system", "get_cpu_info", 296, "could not open /proc/sysinfo", {}]
+2026-04-05T11:47:20.541661+00:00 ip-172-31-75-209 python3[1238]: ["2026-04-05T11:47:20.541", "INFO", "ubuntupro.system", "get_cpu_info", 306, "could not open /sys/firmware/devicetree/base/model", {}]
+2026-04-05T11:47:20.762840+00:00 ip-172-31-75-209 kernel: audit: type=1400 audit(1775389640.760:130): apparmor="DENIED" operation="capable" class="cap" profile="ubuntu_pro_esm_cache_systemd_detect_virt" pid=1375 comm="systemd-detect-" capability=38  capname="perfmon"
+2026-04-05T11:47:20.919901+00:00 ip-172-31-75-209 systemd[1]: apt-news.service: Deactivated successfully.
+2026-04-05T11:47:20.920017+00:00 ip-172-31-75-209 systemd[1]: Finished apt-news.service - Update APT News.
+2026-04-05T11:47:21.804636+00:00 ip-172-31-75-209 systemd[1]: esm-cache.service: Deactivated successfully.
+2026-04-05T11:47:21.805397+00:00 ip-172-31-75-209 systemd[1]: Finished esm-cache.service - Update the local ESM caches.
+2026-04-05T11:47:24.070529+00:00 ip-172-31-75-209 irqbalance[590]: Cannot change IRQ 26 affinity: No such file or directory
+2026-04-05T11:47:24.070691+00:00 ip-172-31-75-209 irqbalance[590]: IRQ 26 affinity is now unmanaged
+2026-04-05T11:47:26.964530+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Activating via systemd: service name='org.freedesktop.PackageKit' unit='packagekit.service' requested by ':1.17' (uid=0 pid=1473 comm="/usr/bin/gdbus call --system --dest org.freedeskto" label="unconfined")
+2026-04-05T11:47:26.972695+00:00 ip-172-31-75-209 systemd[1]: Starting packagekit.service - PackageKit Daemon...
+2026-04-05T11:47:26.986941+00:00 ip-172-31-75-209 PackageKit: daemon start
+2026-04-05T11:47:27.083010+00:00 ip-172-31-75-209 dbus-daemon[585]: [system] Successfully activated service 'org.freedesktop.PackageKit'
+2026-04-05T11:47:27.083133+00:00 ip-172-31-75-209 systemd[1]: Started packagekit.service - PackageKit Daemon.
+2026-04-05T11:48:40.698522+00:00 ip-172-31-75-209 systemd[1]: Started session-8.scope - Session 8 of User ubuntu.
+2026-04-05T11:49:12.662835+00:00 ip-172-31-75-209 systemd[1]: Starting apt-news.service - Update APT News...
+2026-04-05T11:49:12.671452+00:00 ip-172-31-75-209 systemd[1]: Starting esm-cache.service - Update the local ESM caches...
+2026-04-05T11:49:13.137787+00:00 ip-172-31-75-209 systemd[1]: apt-news.service: Deactivated successfully.
+2026-04-05T11:49:13.138329+00:00 ip-172-31-75-209 systemd[1]: Finished apt-news.service - Update APT News.
+2026-04-05T11:49:13.884336+00:00 ip-172-31-75-209 systemd[1]: esm-cache.service: Deactivated successfully.
+2026-04-05T11:49:13.884745+00:00 ip-172-31-75-209 systemd[1]: Finished esm-cache.service - Update the local ESM caches.
+2026-04-05T11:50:05.298585+00:00 ip-172-31-75-209 systemd[1]: Starting sysstat-collect.service - system activity accounting tool...
+2026-04-05T11:50:05.309986+00:00 ip-172-31-75-209 systemd[1]: sysstat-collect.service: Deactivated successfully.
+2026-04-05T11:50:05.310348+00:00 ip-172-31-75-209 systemd[1]: Finished sysstat-collect.service - system activity accounting tool.
+2026-04-05T11:51:37.145097+00:00 ip-172-31-75-209 systemd[1072]: launchpadlib-cache-clean.service - Clean up old files in the Launchpadlib cache was skipped because of an unmet condition check (ConditionPathExists=/home/ubuntu/.launchpadlib/api.launchpad.net/cache).
