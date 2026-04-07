@@ -1,0 +1,15 @@
+{
+  "train_tensor_shape": [
+    39998,
+    20
+  ],
+  "test_tensor_shape": [
+    10000,
+    20
+  ],
+  "final_vocab_size": 50003,
+  "device": "cpu",
+  "epoch_1_avg_loss": 3.1549,
+  "epoch_2_avg_loss": 2.57,
+  "avg_test_loss": 0.3874
+}

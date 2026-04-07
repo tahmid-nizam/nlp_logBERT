@@ -1,0 +1,15 @@
+{
+  "PAD_ID": 0,
+  "UNK_ID": 1,
+  "MASK_ID": 2,
+  "max_len": 20,
+  "batch_size": 16,
+  "final_vocab_size": 50003,
+  "embed_dim": 32,
+  "num_heads": 2,
+  "hidden_dim": 64,
+  "num_layers": 1,
+  "train_limit": 100000,
+  "test_limit": 20000,
+  "max_vocab": 50000
+}
