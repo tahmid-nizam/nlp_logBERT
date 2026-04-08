@@ -1,0 +1,220 @@
+# HDFS_v2 LogBERT Prototype Overview
+
+In this work, I developed a lightweight LogBERT-style anomaly detection prototype using the HDFS_v2 dataset. 
+The main goal was to learn normal log sequence behavior from HDFS block operations and then use the trained model to 
+assign anomaly scores to new log sequences. The final outcome of this work was a small inference script, logbert_checker.py, 
+which can quickly score new logs without needing to rerun the full training notebook.
+
+
+# Data Preparation Process
+
+I began with the large HDFS_v2 raw log files. Since the raw logs were too noisy to use directly, I first combined and parsed 
+them into a structured format. This structured version contained fields such as date, time, level, component, and content.
+
+After structuring the logs, I grouped them using BlockId. This step was important because HDFS log anomaly detection is more meaningful 
+at the block-session level rather than at the single-line level. In other words, instead of treating each log line as an independent 
+event, I treated all log lines related to the same block as one sequence of events.
+
+Next, I normalized the content of the logs to reduce variability. Variable parts of the logs such as IP addresses, block IDs, numbers, 
+file paths, and similar dynamic values were replaced with placeholder tokens such as <IP>, <BLOCK>, and <NUM>. This helped convert 
+similar messages into common templates instead of treating every small variation as a completely different event.
+
+From these normalized messages, I generated an EventTemplate and then an EventId for each log line. This allowed each log message to be 
+represented as a compact event token that could later be used in sequence modeling.
+
+# Sequence Construction
+
+Once the event IDs were created, I built block-based event sequences by grouping all event IDs that belonged to the same BlockId. 
+These sequences became the main training data for the model.
+
+Each session was then represented as an ordered sequence of event tokens. This is the key idea behind LogBERT-style learning: 
+the model does not just look at individual events, but learns the order and context in which events usually occur.
+
+# Why a Lightweight Version Was Needed
+
+The full HDFS_v2 dataset was too large to process and train comfortably on my local machine. During experimentation, the 
+notebook often ran into memory issues and kernel crashes. To make the workflow practical, I created a reduced and restart-safe 
+version of the dataset.
+
+This reduced setup used:
+
+39,998 training sessions
+10,000 test sessions
+fixed sequence length of 20
+reduced vocabulary size of 50,003
+
+I also saved the intermediate processed outputs so I would not need to restart from raw log preprocessing every time the kernel 
+failed. This made later stages of training and evaluation much more stable.
+
+Model Training
+
+I used a lightweight Transformer-based LogBERT-style model. The model included:
+
+- token embeddings
+- positional embeddings
+- a Transformer encoder
+- an output layer for masked token prediction
+
+The training method was based on masked event prediction. In each sequence, some event tokens were hidden, and the model was 
+trained to predict those missing events from the surrounding context. This is similar to the BERT training idea, but applied 
+to log event sequences.
+
+The intuition behind this method is that if the model learns normal HDFS behavior well, then it should be able to predict 
+normal event patterns more easily. When a sequence is unusual, the model will find it harder to predict the masked events, and 
+that difficulty can be used as an anomaly signal.
+
+# Training Results
+
+The lightweight model trained successfully on CPU. The training loss decreased clearly across epochs:
+
+- Epoch 1 average loss: 3.1549
+- Epoch 2 average loss: 2.5700
+
+The average test loss was 0.3874.
+
+These results suggest that the model was able to learn meaningful sequence patterns from the reduced HDFS data.
+
+# Anomaly Scoring
+
+After training, I applied the model to the test sessions. For each session, I masked event tokens and measured how difficult 
+it was for the model to predict them. The average masked-token loss was used as the anomaly score.
+
+In this setup:
+
+- higher anomaly score means the sequence is more unusual
+- lower anomaly score means the sequence is more normal
+
+The test sessions were then ranked by anomaly score, and the most suspicious sessions were extracted for inspection.
+
+Readable Output
+
+To make the results understandable, I mapped the top anomalous event sequences back to readable event templates. 
+This allowed me to see which HDFS operations were associated with the highest anomaly scores.
+
+Many of the top-ranked anomalous sessions were related to:
+
+- receiving block operations
+- block transfer activity
+- packet responder behavior
+
+This is meaningful because those are important operational patterns in HDFS, and unusual sequences in those areas may 
+indicate instability, inconsistency, or abnormal system behavior.
+
+Creation of logbert_checker.py
+
+Once the model was trained, I created a separate inference script called logbert_checker.py. This script was designed as a 
+lightweight deployment version of the prototype.
+
+Instead of repeating the full notebook workflow, the script only performs the following steps:
+
+- load the saved configuration, reduced vocabulary, and trained checkpoint
+- normalize incoming log lines into templates
+- convert templates into event IDs
+- map event IDs into token IDs
+- pad or truncate the sequence to the required length
+- un the trained model
+- return an anomaly score
+
+This makes the checker much smaller and easier to use for local testing or later deployment on EC2.
+
+# Why logbert_checker.py Is Important
+
+The notebook was used for the full research and experimentation workflow, including preprocessing, sequence construction, 
+training, and evaluation. However, that notebook is too large and heavy for quick log checking in a deployed environment.
+
+The purpose of logbert_checker.py is to provide a compact inference-only version of the system. It allows me to test new log 
+windows quickly without retraining the model. This is the version intended for later integration into a server, API, or EC2-based 
+demo pipeline.
+
+# Summary
+
+Overall, I built a lightweight LogBERT-style anomaly detection prototype on HDFS_v2 logs. The process included log parsing, 
+block-based sequence generation, event template construction, Transformer-based masked-event training, anomaly scoring, and 
+readable anomaly output generation. The final result was a compact checker script that can reuse the trained model to score new 
+logs efficiently.
+
+This prototype demonstrates that sequence-based log anomaly detection can be implemented successfully even under memory and 
+hardware limitations, as long as the workflow is simplified and the critical outputs are saved in a restart-safe way.
+
+How I Tuned the Prototype for Cloud Logs
+
+After building the HDFS checker, I extended the same lightweight inference idea to cloud logs. I created a separate cloud-oriented 
+checker script that still uses the same saved lightweight model, vocabulary, and checkpoint, but changes the way the output is 
+interpreted. Instead of only printing an anomaly score, it reads cloud log files in sliding windows and applies a cloud-specific 
+explanation layer on top of the score.
+
+The cloud checker performs the following steps:
+
+load the saved lightweight model, config, and reduced vocabulary
+normalize each cloud log line using the same placeholder-based normalization
+convert each line into an event ID and token ID
+build a fixed-length sequence window
+compute an anomaly score using the trained model
+classify the result into a human-readable alert
+
+The cloud version was tuned by adding a rule-based explanation layer for common cloud and authentication patterns. It looks for patterns 
+such as:
+
+invalid user attempts
+failed password attempts
+accepted password or accepted public key logins
+connection closed events
+authentication failures
+sudo activity
+session opened or closed events
+explicit failures or exceptions
+cron activity
+service or systemd activity
+access denial patterns
+
+This means the script is not only scoring whether a window looks unusual, but also giving a simple reason for why the window might 
+matter.
+
+Cloud Log Output
+
+The cloud checker produces more meaningful output than just “normal” or “suspicious.” For each scored window, it returns:
+
+window ID
+line range
+anomaly score
+alert level
+alert type
+reason
+a few sample log lines from that window
+
+The alert level is assigned from the anomaly score using categories such as:
+
+INFO
+LOW
+MEDIUM
+HIGH
+CRITICAL
+
+The alert type is then inferred from the matched cloud log patterns. Some example alert types are:
+
+Authentication attack pattern
+Privilege activity anomaly
+System stability anomaly
+Service behavior anomaly
+Unusual login sequence
+Failure-related anomaly
+Unknown cloud log anomaly
+
+The reason field explains which pattern triggered the label, for example:
+
+invalid user attempts
+failed password attempts
+privilege escalation or sudo activity
+service management activity
+explicit error or failure message
+
+This makes the cloud checker more useful for demonstration purposes, because the output is easier to understand than a raw 
+anomaly score alone.
+
+Important Limitation of the Cloud Version
+
+The cloud checker is still a lightweight prototype. The underlying model was originally trained on HDFS-style event sequences, 
+so the cloud version should be treated as an anomaly-scoring and alert-explanation prototype rather than a fully specialized 
+cloud-security classifier. The main value of the cloud version is that it shows how the trained lightweight model can be reused 
+in a practical checking script, while the explanation layer makes the output more interpretable for cloud and authentication 
+logs.
